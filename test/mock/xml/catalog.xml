@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema">
+  <s:Schema id="RowsetSchema">
+    <s:ElementType name="row" content="eltOnly">
+      <s:AttributeType name="CODIGO" rs:number="1" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="7" rs:maybenull="false"/>
+      </s:AttributeType>
+      <s:AttributeType name="MODELO" rs:number="2" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="2" rs:maybenull="false"/>
+      </s:AttributeType>
+      <s:AttributeType name="CATEGORIA" rs:number="3" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="2"/>
+      </s:AttributeType>
+      <s:AttributeType name="DESC_CATEGORIA" rs:number="4" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="100"/>
+      </s:AttributeType>
+      <s:AttributeType name="SUBCATEGORIA" rs:number="5" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="4"/>
+      </s:AttributeType>
+      <s:AttributeType name="DESC_SUBCATEGORIA" rs:number="6" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="100"/>
+      </s:AttributeType>
+      <s:AttributeType name="REFERENCIA" rs:number="7" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="50"/>
+      </s:AttributeType>
+      <s:AttributeType name="DESCRICAO" rs:number="8" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="150"/>
+      </s:AttributeType>
+      <s:AttributeType name="VOLTAGEM" rs:number="9" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+      </s:AttributeType>
+      <s:AttributeType name="MARCA" rs:number="10" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="50"/>
+      </s:AttributeType>
+      <s:AttributeType name="IMAGEM" rs:number="11" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="200"/>
+      </s:AttributeType>
+      <s:AttributeType name="IMAGEM_VITRINE" rs:number="12" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="200"/>
+      </s:AttributeType>
+      <s:AttributeType name="IMAGEM_VITRINE_GRANDE" rs:number="13" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="200"/>
+      </s:AttributeType>
+      <s:AttributeType name="IMAGEM_CATEGORIA" rs:number="14" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="200"/>
+      </s:AttributeType>
+      <s:AttributeType name="IMAGEM_PRODUTO_PPI" rs:number="15" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="200"/>
+      </s:AttributeType>
+      <s:AttributeType name="IMAGEM_PRODUTO_DETALHE" rs:number="16" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="200"/>
+      </s:AttributeType>
+      <s:AttributeType name="IMAGEM_PRODUTO_GRANDE" rs:number="17" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="200"/>
+      </s:AttributeType>
+      <s:AttributeType name="QTDE_DETALHES" rs:number="18" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+      </s:AttributeType>
+      <s:AttributeType name="VALOR" rs:number="19" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="number" rs:dbtype="numeric" dt:maxLength="19" rs:scale="2" rs:precision="10" rs:fixedlength="true"/>
+      </s:AttributeType>
+      <s:AttributeType name="VALOR_VENDA" rs:number="20" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="number" rs:dbtype="numeric" dt:maxLength="19" rs:scale="2" rs:precision="10" rs:fixedlength="true"/>
+      </s:AttributeType>
+      <s:AttributeType name="ATIVO" rs:number="21" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+      </s:AttributeType>
+      <s:AttributeType name="CLASSIFICACAO_FISCAL" rs:number="22" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="i8" dt:maxLength="8" rs:precision="19" rs:fixedlength="true"/>
+      </s:AttributeType>
+      <s:AttributeType name="ACAO" rs:number="23" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="10"/>
+      </s:AttributeType>
+      <s:AttributeType name="DATA_ALTERACAO" rs:number="24" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="dateTime" rs:dbtype="timestamp" dt:maxLength="16" rs:scale="3" rs:precision="23" rs:fixedlength="true"/>
+      </s:AttributeType>
+      <s:AttributeType name="TEM_MONTAGEM" rs:number="25" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+      </s:AttributeType>
+      <s:AttributeType name="FRETE" rs:number="26" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="number" rs:dbtype="currency" dt:maxLength="8" rs:precision="19" rs:fixedlength="true"/>
+      </s:AttributeType>
+      <s:AttributeType name="MESTRE" rs:number="27" rs:nullable="true" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="9"/>
+      </s:AttributeType>
+      <s:extends type="rs:rowbase"/>
+    </s:ElementType>
+  </s:Schema>
+  <rs:data>
+    <z:row CODIGO="2065448" MODELO="00" CATEGORIA="CJ" DESC_CATEGORIA="Casa e Jardim" SUBCATEGORIA="CJSA" DESC_SUBCATEGORIA="Assentos Sanitários" REFERENCIA="para Louça Celite - Pontto Lavabo" DESCRICAO="Assento Sanitário Saveiro" VOLTAGEM="3" MARCA="pontto lavabo" IMAGEM="http://i.mlcdn.com.br/210x210/206544800.jpg" IMAGEM_VITRINE="http://i.mlcdn.com.br/210x210/206544800.jpg" IMAGEM_VITRINE_GRANDE="http://i.mlcdn.com.br/1500x1500/206544800.jpg" IMAGEM_CATEGORIA="http://i.mlcdn.com.br/210x210/206544800.jpg" IMAGEM_PRODUTO_PPI="http://i.mlcdn.com.br/210x210/206544800.jpg" IMAGEM_PRODUTO_DETALHE="http://i.mlcdn.com.br/410x308/206544800.jpg" IMAGEM_PRODUTO_GRANDE="http://i.mlcdn.com.br/1500x1500/206544800.jpg" QTDE_DETALHES="1" VALOR="329.90" VALOR_VENDA="329.90" ATIVO="True" CLASSIFICACAO_FISCAL="" ACAO="add" DATA_ALTERACAO="2015-06-26T15:30:00.705391" TEM_MONTAGEM="False" MESTRE="2065448"/>
+    <z:row CODIGO="0235174" MODELO="00" CATEGORIA="EP" DESC_CATEGORIA="Eletroportáteis" SUBCATEGORIA="CAFE" DESC_SUBCATEGORIA="Cafeteiras Elétricas" REFERENCIA="12 Xícaras" DESCRICAO="Cafeteira Elétrica Arno Bevarage CAFP" VOLTAGEM="1" MARCA="arno" IMAGEM="http://i.mlcdn.com.br/210x210/023517400.jpg" IMAGEM_VITRINE="http://i.mlcdn.com.br/210x210/023517400.jpg" IMAGEM_VITRINE_GRANDE="http://i.mlcdn.com.br/1500x1500/023517400.jpg" IMAGEM_CATEGORIA="http://i.mlcdn.com.br/210x210/023517400.jpg" IMAGEM_PRODUTO_PPI="http://i.mlcdn.com.br/210x210/023517400.jpg" IMAGEM_PRODUTO_DETALHE="http://i.mlcdn.com.br/410x308/023517400.jpg" IMAGEM_PRODUTO_GRANDE="http://i.mlcdn.com.br/1500x1500/023517400.jpg" QTDE_DETALHES="1" VALOR="79.00" VALOR_VENDA="69.90" ATIVO="True" CLASSIFICACAO_FISCAL="" ACAO="add" DATA_ALTERACAO="2015-06-26T15:30:00.705391" TEM_MONTAGEM="False" MESTRE="0235174"/>
+    <z:row CODIGO="0235175" MODELO="00" CATEGORIA="EP" DESC_CATEGORIA="Eletroportáteis" SUBCATEGORIA="CAFE" DESC_SUBCATEGORIA="Cafeteiras Elétricas" REFERENCIA="12 Xícaras" DESCRICAO="Cafeteira Elétrica Arno Bevarage CAFP" VOLTAGEM="2" MARCA="arno" IMAGEM="http://i.mlcdn.com.br/210x210/023517500.jpg" IMAGEM_VITRINE="http://i.mlcdn.com.br/210x210/023517500.jpg" IMAGEM_VITRINE_GRANDE="http://i.mlcdn.com.br/1500x1500/023517500.jpg" IMAGEM_CATEGORIA="http://i.mlcdn.com.br/210x210/023517500.jpg" IMAGEM_PRODUTO_PPI="http://i.mlcdn.com.br/210x210/023517500.jpg" IMAGEM_PRODUTO_DETALHE="http://i.mlcdn.com.br/410x308/023517500.jpg" IMAGEM_PRODUTO_GRANDE="http://i.mlcdn.com.br/1500x1500/023517500.jpg" QTDE_DETALHES="1" VALOR="79.00" VALOR_VENDA="69.90" ATIVO="True" CLASSIFICACAO_FISCAL="" ACAO="add" DATA_ALTERACAO="2015-06-26T15:30:00.705391" TEM_MONTAGEM="False" MESTRE="0235174"/>
+    <z:row CODIGO="0842805" MODELO="00" CATEGORIA="ED" DESC_CATEGORIA="Eletrodomésticos" SUBCATEGORIA="TANK" DESC_SUBCATEGORIA="Tanquinho" REFERENCIA="Desligamento Automático + 1 Sabão em Pó Tixan Ypê" DESCRICAO="Tanquinho Suggar Lavamax 10.0 10Kg" VOLTAGEM="1" MARCA="suggar" IMAGEM="http://i.mlcdn.com.br/210x210/084280500.jpg" IMAGEM_VITRINE="http://i.mlcdn.com.br/210x210/084280500.jpg" IMAGEM_VITRINE_GRANDE="http://i.mlcdn.com.br/1500x1500/084280500.jpg" IMAGEM_CATEGORIA="http://i.mlcdn.com.br/210x210/084280500.jpg" IMAGEM_PRODUTO_PPI="http://i.mlcdn.com.br/210x210/084280500.jpg" IMAGEM_PRODUTO_DETALHE="http://i.mlcdn.com.br/410x308/084280500.jpg" IMAGEM_PRODUTO_GRANDE="http://i.mlcdn.com.br/1500x1500/084280500.jpg" QTDE_DETALHES="1" VALOR="459.00" VALOR_VENDA="379.00" ATIVO="False" CLASSIFICACAO_FISCAL="" ACAO="add" DATA_ALTERACAO="2015-06-26T15:30:00.705391" TEM_MONTAGEM="False" MESTRE="0842805"/>
+  </rs:data>
+</xml>
