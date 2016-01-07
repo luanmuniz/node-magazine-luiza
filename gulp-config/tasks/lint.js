@@ -6,7 +6,7 @@ let jscs = require('gulp-jscs');
 let paths = require('../paths');
 
 gulp.task('lint', done => {
-	gulp.src(paths.js)
+	return gulp.src(paths.js)
 		.pipe(jshint())
 		.pipe(jshint.reporter())
 		.pipe(jshint.reporter('fail'))
@@ -16,7 +16,7 @@ gulp.task('lint', done => {
 		.pipe(jscs.reporter())
 		.pipe(jscs.reporter('fail'))
 		.on('error', handleError(done))
-		.on('end', done);
+		//.on('end', done);
 });
 
 function handleError(done) {

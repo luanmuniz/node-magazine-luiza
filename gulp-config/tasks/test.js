@@ -8,7 +8,7 @@ let paths = require('../paths');
 
 let allFiles = paths.js.concat(paths.testFiles);
 
-gulp.task('pre-test', done => {
+gulp.task('pre-test', ['lint'], done => {
 	process.env.NODE_ENV = 'test';
 	return gulp.src(paths.js)
 		.pipe(istanbul())
