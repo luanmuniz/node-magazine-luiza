@@ -3,17 +3,13 @@
 require('../mock/got-mock');
 const expect = require('chai').expect;
 const parser = require('xml2js').parseString;
-const config = require('../../app').config;
 const MagazineLuizaAPI = require('../../index');
 const catalogResult = require('../mock/json/catalog-result.json');
 
 describe('# MAGAZINE LUIZA API - CATALOG', () => {
 	var magazineLuiza;
 	beforeEach(() => {
-		magazineLuiza = new MagazineLuizaAPI({
-			mainUrl: config.mainUrl,
-			id: config.id
-		});
+		magazineLuiza = new MagazineLuizaAPI('0000');
 	});
 
 	it('Should MagazineLuizaAPI has ownProperty catalog', () => {

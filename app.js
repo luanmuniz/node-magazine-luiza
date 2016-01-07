@@ -1,10 +1,7 @@
 'use strict';
 
-var NODE_ENV = process.env.NODE_ENV || 'development',
-	configFile = require('./config/config.json')[NODE_ENV],
-
-App = {
-	config: configFile
+var App = {
+	mainUrl: 'http://corporativo.magazineluiza.com.br'
 };
 
 module.exports = Object.create(App);

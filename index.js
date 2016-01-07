@@ -2,13 +2,13 @@
 
 var catalogAPI = require('./lib/catalog');
 
-function MagazineLuizaAPI(args) {
+function MagazineLuizaAPI(partnerId) {
 	if(!this || !(this instanceof MagazineLuizaAPI)) {
 		return new MagazineLuizaAPI();
 	}
 
 	this.order = {};
-	this.catalog = catalogAPI.init(args);
+	this.catalog = catalogAPI.init(partnerId);
 }
 
 module.exports = MagazineLuizaAPI;

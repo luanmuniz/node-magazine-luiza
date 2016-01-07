@@ -1,5 +1,4 @@
 coverage
-config/*-example.json
 .editorconfig
 gulp-config
 gulpfile.js

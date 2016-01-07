@@ -28,8 +28,3 @@ backup/
 cache/
 .idea/
 *.swp
-
-# This app
-###########
-config/*.json
-!config/*-example.json
