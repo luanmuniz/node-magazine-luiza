@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema">
+  <s:Schema id="RowsetSchema">
+    <s:ElementType name="row" content="eltOnly">
+      <s:AttributeType name="strCor" rs:number="1" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="2" rs:fixedlength="true" rs:maybenull="false"/>
+      </s:AttributeType>
+      <s:AttributeType name="strDescricao" rs:number="2" rs:writeunknown="true">
+        <s:datatype dt:type="string" rs:dbtype="str" dt:maxLength="50" rs:maybenull="false"/>
+      </s:AttributeType>
+      <s:extends type="rs:rowbase"/>
+    </s:ElementType>
+  </s:Schema>
+  <rs:data>
+    <z:row strCor=" 0" strDescricao="Indefinido"/>
+    <z:row strCor="00" strDescricao=" "/>
+    <z:row strCor="01" strDescricao="Branco"/>
+    <z:row strCor="02" strDescricao="Azul"/>
+    <z:row strCor="03" strDescricao="Amarelo"/>
+    <z:row strCor="04" strDescricao="Vermelho"/>
+    <z:row strCor="05" strDescricao="Bege"/>
+    <z:row strCor="06" strDescricao="Marrom"/>
+    <z:row strCor="07" strDescricao="Marfim"/>
+    <z:row strCor="08" strDescricao="Cinza"/>
+    <z:row strCor="09" strDescricao="Ocre"/>
+    <z:row strCor="10" strDescricao="Caviúna"/>
+    <z:row strCor="11" strDescricao="Cerejeira"/>
+    <z:row strCor="12" strDescricao="Imbuia"/>
+    <z:row strCor="13" strDescricao="Nevada"/>
+    <z:row strCor="14" strDescricao="Havana"/>
+    <z:row strCor="15" strDescricao="Polida"/>
+    <z:row strCor="16" strDescricao="Verde"/>
+    <z:row strCor="17" strDescricao="Ouro"/>
+    <z:row strCor="18" strDescricao="Bronze"/>
+    <z:row strCor="19" strDescricao="Castanho"/>
+    <z:row strCor="20" strDescricao="Amêndoa"/>
+    <z:row strCor="21" strDescricao="Areia"/>
+    <z:row strCor="22" strDescricao="Marinho"/>
+    <z:row strCor="23" strDescricao="Marrom / Bege"/>
+    <z:row strCor="24" strDescricao="Ônix / Azul"/>
+    <z:row strCor="25" strDescricao="Ônix / Amarelo"/>
+    <z:row strCor="26" strDescricao="Ônix / Vermelho"/>
+    <z:row strCor="27" strDescricao="Pinus"/>
+    <z:row strCor="28" strDescricao="Estampado"/>
+    <z:row strCor="29" strDescricao="Preto"/>
+    <z:row strCor="30" strDescricao="Marrom / Bege / Branco"/>
+    <z:row strCor="31" strDescricao="Bege / Azul Marinho"/>
+    <z:row strCor="32" strDescricao="Bege / Estampado"/>
+    <z:row strCor="33" strDescricao="Azul Marinho / Estampado"/>
+    <z:row strCor="34" strDescricao="Vermelho / Bege"/>
+    <z:row strCor="35" strDescricao="Café"/>
+    <z:row strCor="36" strDescricao="Palha"/>
+    <z:row strCor="37" strDescricao="Jeans"/>
+    <z:row strCor="38" strDescricao="Azul / Branco"/>
+    <z:row strCor="39" strDescricao="Caramelo"/>
+    <z:row strCor="40" strDescricao="Marrom / Branco"/>
+    <z:row strCor="41" strDescricao="Vermelho / Caviúna"/>
+    <z:row strCor="42" strDescricao="Coral"/>
+    <z:row strCor="43" strDescricao="Amarelo / Branco"/>
+    <z:row strCor="44" strDescricao="Azul / Marrom / Branco"/>
+    <z:row strCor="45" strDescricao="Verniz"/>
+    <z:row strCor="46" strDescricao="Laranja"/>
+    <z:row strCor="47" strDescricao="Marrom / Creme"/>
+    <z:row strCor="48" strDescricao="Maple / Branco"/>
+    <z:row strCor="49" strDescricao="Rosa"/>
+    <z:row strCor="50" strDescricao="Vinho"/>
+    <z:row strCor="51" strDescricao="Oouro Velho"/>
+    <z:row strCor="52" strDescricao="Creme / Caramelo"/>
+    <z:row strCor="53" strDescricao="Grafite"/>
+    <z:row strCor="54" strDescricao="Granito"/>
+    <z:row strCor="55" strDescricao="Granito / Cinza"/>
+    <z:row strCor="56" strDescricao="Violeta"/>
+    <z:row strCor="57" strDescricao="Roxo"/>
+    <z:row strCor="58" strDescricao="Vermelho / Branco"/>
+    <z:row strCor="59" strDescricao="Amarelo / Roxo"/>
+    <z:row strCor="60" strDescricao="Amarelo / Azul"/>
+    <z:row strCor="61" strDescricao="Verde / Preto"/>
+    <z:row strCor="62" strDescricao="Roxo / Verde"/>
+    <z:row strCor="63" strDescricao="Magenta"/>
+    <z:row strCor="64" strDescricao="Azul / Vermelho"/>
+    <z:row strCor="65" strDescricao="Azul / Pink"/>
+    <z:row strCor="66" strDescricao="Lilás"/>
+    <z:row strCor="67" strDescricao="Branco / Violeta"/>
+    <z:row strCor="68" strDescricao="Branco / Azul"/>
+    <z:row strCor="69" strDescricao="Branco / Roxo"/>
+    <z:row strCor="70" strDescricao="Preto / Branco"/>
+    <z:row strCor="71" strDescricao="Cinza / Vermelho"/>
+    <z:row strCor="72" strDescricao="Imbuia"/>
+    <z:row strCor="73" strDescricao="Verde / Azul"/>
+    <z:row strCor="74" strDescricao="Uva"/>
+    <z:row strCor="75" strDescricao="Vermelho / Roxo"/>
+    <z:row strCor="76" strDescricao="Cereja"/>
+    <z:row strCor="77" strDescricao="Prata"/>
+    <z:row strCor="78" strDescricao="Vermelho / Preto"/>
+    <z:row strCor="79" strDescricao="Ferrugem"/>
+    <z:row strCor="80" strDescricao="Vinho / Prata"/>
+    <z:row strCor="81" strDescricao="Amêndoa"/>
+    <z:row strCor="82" strDescricao="Salmão"/>
+    <z:row strCor="83" strDescricao="Colonial"/>
+    <z:row strCor="84" strDescricao="Mostarda"/>
+    <z:row strCor="85" strDescricao="Requinte"/>
+    <z:row strCor="86" strDescricao="Terracota"/>
+    <z:row strCor="87" strDescricao="Cambraia"/>
+    <z:row strCor="88" strDescricao="Indefinido"/>
+    <z:row strCor="90" strDescricao="Basalto"/>
+    <z:row strCor="91" strDescricao="Branco / Azul"/>
+    <z:row strCor="92" strDescricao="Mogno"/>
+    <z:row strCor="93" strDescricao="Tabaco / Branco"/>
+    <z:row strCor="94" strDescricao="Mel"/>
+    <z:row strCor="95" strDescricao="Imbuia / Branco"/>
+    <z:row strCor="96" strDescricao="Imbuia / Maple"/>
+    <z:row strCor="97" strDescricao="Tabaco Fosco"/>
+    <z:row strCor="98" strDescricao="Tabaco"/>
+    <z:row strCor="99" strDescricao="Tabaco / Maple"/>
+  </rs:data>
+</xml>
