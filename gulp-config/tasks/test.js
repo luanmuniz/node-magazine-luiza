@@ -27,7 +27,7 @@ gulp.task('test', [ 'pre-test' ], done => {
 		.on('error', () => {
 			console.log('MINIMUM COVERAGE:\n', coverage.global);
 			console.log('='.repeat(80));
-			process.exit();
+			process.exit(1);
 		})
 		.on('end', handleError(done));
 });
