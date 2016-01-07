@@ -3,6 +3,7 @@
 > A library for Magazine Luiza API
 
 [![Circle CI][circle-image]][circle-url] [![Dependency Status][depstat-image]][depstat-url] [![Coveralls][coveralls-image]][coveralls-url] [![NPM Version][node-image]][node-url]
+
 [![Node Build][nodei-image]][nodei-url]
 
 ## Documentation
