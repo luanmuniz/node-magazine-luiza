@@ -16,7 +16,6 @@ trim_trailing_whitespace = false
 [*.json]
 indent_style = space
 indent_size = 2
-max_line_length = false
 
-[*.xml]
+[{*.md,*.json,*.xml}]
 max_line_length = false
