@@ -8,7 +8,7 @@ const catalogResult = require('../mock/json/catalog-result.json');
 
 describe('# MAGAZINE LUIZA API - CATALOG', () => {
 	var magazineLuiza;
-	beforeEach(() => {
+	before(() => {
 		magazineLuiza = new MagazineLuizaAPI('0000');
 	});
 
