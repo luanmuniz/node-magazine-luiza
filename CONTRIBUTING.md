@@ -4,7 +4,8 @@ This document describes some points about contribution process for this project.
 The project is being developed within community. Maintainer merges pull-requests, fixes critical bugs.
 
 The maintainers of the project are:
-- [Luan Muniz](http://github.com/luanmuniz)
+- [Luan Muniz](https://github.com/luanmuniz)
+- [Fernando Daciuk](https://github.com/fdaciuk)
 
 ## General notes
 
