@@ -3,8 +3,10 @@
 let got = require('got');
 let fs = require('fs');
 let path = require('path');
+let xmlMockPath = ['.', 'test', 'mock', 'xml'];
 let xmls = {
-	xmlCatalogo: path.resolve('.', 'test', 'mock', 'xml', 'catalog.xml')
+	xmlCatalogo: path.resolve.apply(path, xmlMockPath.concat('catalog.xml')),
+	xmlCores: path.resolve.apply(path, xmlMockPath.concat('color.xml'))
 };
 
 got.get = (url) => {
