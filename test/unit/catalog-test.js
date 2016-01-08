@@ -21,7 +21,7 @@ describe('# MAGAZINE LUIZA API - CATALOG', () => {
 	});
 
 	it('Should parse XML to JSON', () => {
-		return magazineLuiza.catalog.getFullCatalog()
+		return magazineLuiza.catalog.getProducts()
 			.then((data) => {
 				return expect(data).to.be.deep.equal(catalogResult);
 			})
