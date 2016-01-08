@@ -1,14 +1,15 @@
 'use strict';
 
-var catalogAPI = require('./lib/catalog');
+const CoreAPI = require('./lib/core');
 
 function MagazineLuizaAPI(partnerId) {
 	if(!this || !(this instanceof MagazineLuizaAPI)) {
 		return new MagazineLuizaAPI();
 	}
 
-	this.order = {};
-	this.catalog = catalogAPI.init(partnerId);
+	CoreAPI.init(partnerId);
+
+	this.catalog = require('./lib/catalog');
 }
 
 module.exports = MagazineLuizaAPI;
