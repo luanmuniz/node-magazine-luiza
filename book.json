@@ -1,0 +1,18 @@
+{
+  "gitbook": "2.4.3",
+  "structure": {
+    "readme": "docs/pt-br/README.md",
+    "summary": "docs/pt-br/SUMMARY.md"
+  },
+  "language": "pt-br",
+  "plugins": ["edit-link", "prism", "-highlight", "github"],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/ZimpFidelidade/node-magazine-luiza/tree/master",
+      "label": "Edit this page"
+    },
+    "github": {
+      "url": "https://github.com/ZimpFidelidade/node-magazine-luiza"
+    }
+  }
+}

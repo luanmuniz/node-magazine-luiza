@@ -8,7 +8,7 @@
 
 ## Documentation
 
-Please, check the [documentation]().
+Please, check the [documentation](https://git.gitbook.com/ZimpFidelidade/node-magazine-luiza).
 
 ## Contributing
 

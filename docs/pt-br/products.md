@@ -1,3 +1,22 @@
+# Catálogo de produtos
+
+## Obtendo o catálogo de produtos
+
+Primeiro é necessário instanciar o objeto `MagazineLuizaAPI`, passando o seu ID:
+
+```
+const magazineLuiza = new MagazineLuizaAPI('000');
+```
+
+Após isso, use o método `getProducts()` em `catalog` para obter o catálogo:
+
+```
+magazineLuiza.catalog.getProducts();
+```
+
+Esse método retorna uma Promise. O resultado da Promise é um array de objetos, com os produtos do catálogo, no formato:
+
+```js
 [
     {
         "action": "add",
@@ -120,3 +139,39 @@
         "voltage": 1
     }
 ]
+```
+
+## Tipos e referências de valores do objeto retornado com a API
+
+```js
+{
+	action: <String> ACAO,
+	active: <Boolean> ATIVO,
+	category: <String> CATEGORIA,
+	ncm: <String> CLASSIFICACAO_FISCAL,
+	id: <String> CODIGO,
+	changeDate: <Date String> DATA_ALTERACAO,
+	description: <String> DESCRICAO,
+	descriptionCategory: <String> DESC_CATEGORIA,
+	descriptionSubcategory: <String> DESC_SUBCATEGORIA,
+	images: {
+		default: <String> IMAGEM,
+		category: <String> IMAGEM_CATEGORIA,
+		productDetail: <String> IMAGEM_PRODUTO_DETALHE,
+		productLarge: <String> IMAGEM_PRODUTO_GRANDE,
+		productPPI: <String> IMAGEM_PRODUTO_PPI,
+		showcase: <String> IMAGEM_VITRINE,
+		showcaseLarge: <String> IMAGEM_VITRINE_GRANDE
+	},
+	brand: <String> MARCA,
+	master: <String> MESTRE,
+	model: <String> MODELO,
+	amountDetails: <Number> QTDE_DETALHES,
+	reference: <String> REFERENCIA,
+	subcategory: <String> SUBCATEGORIA,
+	hasMounting: <String> TEM_MONTAGEM,
+	price: <String> VALOR,
+	salePrice: <String> VALOR_VENDA,
+	voltage: <Number> VOLTAGEM
+}
+```
