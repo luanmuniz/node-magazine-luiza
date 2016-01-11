@@ -1,5 +1,7 @@
 # Documentação API Magazine Luiza
 
+> [Escolher outra língua / Choose another language](https://zimp.gitbooks.io/magazine-luiza/content/)
+
 ## Construtor
 
 ### Assinatura
