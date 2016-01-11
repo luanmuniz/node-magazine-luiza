@@ -2,7 +2,6 @@
 
 require('../mock/got-mock');
 const expect = require('chai').expect;
-const parser = require('xml2js').parseString;
 const MagazineLuizaAPI = require('../../index');
 const catalogResult = require('../mock/json/catalog-result.json');
 
@@ -20,10 +19,9 @@ describe('# MAGAZINE LUIZA API - CATALOG', function() {
 		expect(magazineLuiza.catalog).to.be.an('object');
 	});
 
-	it('Should parse XML to JSON', function() {
+	it('Should getProduct() return an array of products', function() {
 		return magazineLuiza.catalog.getProducts()
 			.then((data) => {
-				console.log(data);
 				return expect(data).to.be.deep.equal(catalogResult);
 			})
 		;
