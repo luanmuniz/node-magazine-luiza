@@ -1,0 +1,32 @@
+[
+    {
+        "categoryDescription": "Acess\u00f3rios para Beb\u00ea",
+        "categoryID": "AB",
+        "subcategoryDescription": "Bico de mamadeira",
+        "subcategoryID": "ABBM"
+    },
+    {
+        "categoryDescription": "Ar e Ventila\u00e7\u00e3o",
+        "categoryID": "AR",
+        "subcategoryDescription": "Acess\u00f3rios",
+        "subcategoryID": "AAVE"
+    },
+    {
+        "categoryDescription": "Ar e Ventila\u00e7\u00e3o",
+        "categoryID": "AR",
+        "subcategoryDescription": "Ar Condicionado de   12.000 at\u00e9 17.500 BTUs",
+        "subcategoryID": "AR12"
+    },
+    {
+        "categoryDescription": "Utilidades Dom\u00e9sticas",
+        "categoryID": "UD",
+        "subcategoryDescription": "T\u00e1buas de Passar",
+        "subcategoryID": "UDTP"
+    },
+    {
+        "categoryDescription": "Utilidades Dom\u00e9sticas",
+        "categoryID": "UD",
+        "subcategoryDescription": "Vasos",
+        "subcategoryID": "UDVA"
+    }
+]
