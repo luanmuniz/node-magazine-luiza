@@ -8,13 +8,13 @@ Primeiro é necessário instanciar o objeto `MagazineLuizaAPI`, passando o seu I
 const magazineLuiza = new MagazineLuizaAPI('000');
 ```
 
-Após isso, use o método `getProducts()` em `catalog` para obter o catálogo:
+Após isso, use o método `getColors()` em `catalog` para obter o catálogo:
 
 ```
 magazineLuiza.catalog.getColors();
 ```
 
-Esse método retorna uma Promise. O resultado da Promise é um array de objetos, com os produtos do catálogo, no formato:
+Esse método retorna uma Promise. O resultado da Promise é um array de objetos, com as cores dos produtos do catálogo, no formato:
 
 ```json
 [
