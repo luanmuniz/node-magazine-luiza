@@ -21,6 +21,14 @@ describe('# MAGAZINE LUIZA API - CORE', function() {
 		;
 	});
 
+	it('Should return an error if don\'t pass the ID', function() {
+		expect(MagazineLuizaAPI).to.throw(
+			Error,
+			/You need to pass your credentials to initialize the module/
+		);
+	});
+
+
 	it('Should return error when file type is different from XML',
 	function() {
 		return core.requestSuccess({})
@@ -28,7 +36,8 @@ describe('# MAGAZINE LUIZA API - CORE', function() {
 		;
 	});
 
-	it('Should return an object even new is not used', function() {
+	it('Should return the MagazineLuizaAPI object even new is not used',
+	function() {
 		const magazineLuiza = MagazineLuizaAPI('0000');
 		expect(magazineLuiza).to.be.instanceof(MagazineLuizaAPI);
 	});
