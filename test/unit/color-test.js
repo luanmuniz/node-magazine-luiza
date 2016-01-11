@@ -18,7 +18,7 @@ describe('# MAGAZINE LUIZA API - CATALOG - COLORS', function() {
 	it('Should getColors() return an array of objects with colors', function() {
 		return magazineLuiza.catalog.getColors()
 			.then(data => {
-				expect(data).to.be.deep.equal(colorsResult);
+				return expect(data).to.be.deep.equal(colorsResult);
 			})
 		;
 	});

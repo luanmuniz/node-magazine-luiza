@@ -19,7 +19,7 @@ describe('# MAGAZINE LUIZA API - CATALOG - CATEGORIES', function() {
 	function() {
 		return magazineLuiza.catalog.getCategories()
 			.then(data => {
-				expect(data).to.be.deep.equal(categoryResult);
+				return expect(data).to.be.deep.equal(categoryResult);
 			})
 		;
 	});
