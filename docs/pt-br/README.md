@@ -6,7 +6,7 @@
 
 ### Assinatura
 
-```
+```js
 new MagazineLuizaAPI(id[, env])
 ```
 

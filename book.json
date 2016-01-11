@@ -2,6 +2,7 @@
   "gitbook": "2.x.x",
   "title": "Magazine Luiza API",
   "description": "Documentação do módulo para API Rest da Magazine Luiza",
+  "language": "pt-br",
   "plugins": ["edit-link", "prism", "-highlight", "github"],
   "pluginsConfig": {
     "edit-link": {
