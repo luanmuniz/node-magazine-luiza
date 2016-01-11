@@ -32,4 +32,4 @@ Having trouble? Or new ideas? Post a new issue! We will be glad to help you!
 [nodei-url]: https://nodei.co/npm/magazine-luiza
 [node-image]: https://badge.fury.io/js/magazine-luiza.svg
 [node-url]: http://badge.fury.io/js/magazine-luiza
-[documentation-url]: https://zimp.gitbooks.io/magazine-luiza
+[documentation-url]: https://zimp.gitbooks.io/magazine-luiza/content/
