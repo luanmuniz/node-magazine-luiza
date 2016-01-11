@@ -6,7 +6,7 @@ let path = require('path');
 let xmlMockPath = ['.', 'test', 'mock', 'xml'];
 let xmls = {
 	xmlCatalogo: path.resolve.apply(path, xmlMockPath.concat('catalog.xml')),
-	xmlCores: path.resolve.apply(path, xmlMockPath.concat('color.xml'))
+	xmlCor: path.resolve.apply(path, xmlMockPath.concat('color.xml'))
 };
 
 got.get = (url) => {
