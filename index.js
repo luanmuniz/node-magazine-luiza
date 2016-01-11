@@ -10,6 +10,7 @@ function MagazineLuizaAPI(partnerId, env) {
 	CoreAPI.init(partnerId, env);
 
 	this.catalog = require('./lib/catalog');
+	this.colors = {};
 }
 
 module.exports = MagazineLuizaAPI;
