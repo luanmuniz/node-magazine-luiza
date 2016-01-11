@@ -20,7 +20,7 @@ describe('# MAGAZINE LUIZA API - CATALOG', function() {
 		expect(magazineLuiza.catalog).to.be.an('object');
 	});
 
-	it('Should parse XML to JSON', function() {
+	it('Should getProduct() return an array of products', function() {
 		return magazineLuiza.catalog.getProducts()
 			.then((data) => {
 				return expect(data).to.be.deep.equal(catalogResult);
