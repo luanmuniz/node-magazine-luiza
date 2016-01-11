@@ -3,7 +3,8 @@
   "title": "Magazine Luiza API",
   "description": "Documentação do módulo para API Rest da Magazine Luiza",
   "structure": {
-    "readme": "docs/README.md"
+    "readme": "docs/README.md",
+    "summary": "docs/pt-br/SUMMARY.md"
   },
   "language": "pt-br",
   "plugins": ["edit-link", "prism", "-highlight", "github"],
