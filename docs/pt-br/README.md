@@ -1,7 +1,5 @@
 # Documentação API Magazine Luiza
 
-> [See English Version](../README.md)
-
 ## Construtor
 
 ### Assinatura
