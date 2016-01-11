@@ -6,7 +6,7 @@
     "readme": "docs/pt-br/README.md",
     "summary": "docs/pt-br/SUMMARY.md"
   },
-  "language": "pt-br",
+  "language": "docs/pt-br",
   "plugins": ["edit-link", "prism", "-highlight", "github"],
   "pluginsConfig": {
     "edit-link": {
