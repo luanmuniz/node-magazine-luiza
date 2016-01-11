@@ -2,12 +2,12 @@
 
 const CoreAPI = require('./lib/core');
 
-function MagazineLuizaAPI(partnerId) {
+function MagazineLuizaAPI(partnerId, env) {
 	if(!this || !(this instanceof MagazineLuizaAPI)) {
 		return new MagazineLuizaAPI();
 	}
 
-	CoreAPI.init(partnerId);
+	CoreAPI.init(partnerId, env);
 
 	this.catalog = require('./lib/catalog');
 }
