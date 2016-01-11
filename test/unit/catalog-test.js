@@ -23,7 +23,6 @@ describe('# MAGAZINE LUIZA API - CATALOG', function() {
 	it('Should parse XML to JSON', function() {
 		return magazineLuiza.catalog.getProducts()
 			.then((data) => {
-				console.log(data);
 				return expect(data).to.be.deep.equal(catalogResult);
 			})
 		;
