@@ -2,10 +2,6 @@
   "gitbook": "2.x.x",
   "title": "Magazine Luiza API",
   "description": "Documentação do módulo para API Rest da Magazine Luiza",
-  "structure": {
-    "readme": "README.md",
-    "summary": "docs/SUMMARY.md"
-  },
   "plugins": ["edit-link", "prism", "-highlight", "github"],
   "pluginsConfig": {
     "edit-link": {
