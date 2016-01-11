@@ -2,7 +2,6 @@
 
 require('../mock/got-mock');
 const expect = require('chai').expect;
-const parser = require('xml2js').parseString;
 const MagazineLuizaAPI = require('../../index');
 const colorsResult = require('../mock/json/colors-result.json');
 

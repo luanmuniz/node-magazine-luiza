@@ -11,6 +11,9 @@ let xmls = {
 
 got.get = (url) => {
 	let chosenXml = url.split(/\/(\w+).asp/gi)[1];
+	if(!chosenXml) {
+		return Promise.reject(new Error('Wrong URL'));
+	}
 	let xml = fs.readFileSync(xmls[chosenXml], 'utf8');
 	return Promise.resolve(xml);
 };
