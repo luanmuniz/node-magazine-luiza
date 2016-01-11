@@ -1,0 +1,402 @@
+[
+    {
+        "color": " 0",
+        "description": "Indefinido"
+    },
+    {
+        "color": "00",
+        "description": " "
+    },
+    {
+        "color": "01",
+        "description": "Branco"
+    },
+    {
+        "color": "02",
+        "description": "Azul"
+    },
+    {
+        "color": "03",
+        "description": "Amarelo"
+    },
+    {
+        "color": "04",
+        "description": "Vermelho"
+    },
+    {
+        "color": "05",
+        "description": "Bege"
+    },
+    {
+        "color": "06",
+        "description": "Marrom"
+    },
+    {
+        "color": "07",
+        "description": "Marfim"
+    },
+    {
+        "color": "08",
+        "description": "Cinza"
+    },
+    {
+        "color": "09",
+        "description": "Ocre"
+    },
+    {
+        "color": "10",
+        "description": "Cavi\u00fana"
+    },
+    {
+        "color": "11",
+        "description": "Cerejeira"
+    },
+    {
+        "color": "12",
+        "description": "Imbuia"
+    },
+    {
+        "color": "13",
+        "description": "Nevada"
+    },
+    {
+        "color": "14",
+        "description": "Havana"
+    },
+    {
+        "color": "15",
+        "description": "Polida"
+    },
+    {
+        "color": "16",
+        "description": "Verde"
+    },
+    {
+        "color": "17",
+        "description": "Ouro"
+    },
+    {
+        "color": "18",
+        "description": "Bronze"
+    },
+    {
+        "color": "19",
+        "description": "Castanho"
+    },
+    {
+        "color": "20",
+        "description": "Am\u00eandoa"
+    },
+    {
+        "color": "21",
+        "description": "Areia"
+    },
+    {
+        "color": "22",
+        "description": "Marinho"
+    },
+    {
+        "color": "23",
+        "description": "Marrom / Bege"
+    },
+    {
+        "color": "24",
+        "description": "\u00d4nix / Azul"
+    },
+    {
+        "color": "25",
+        "description": "\u00d4nix / Amarelo"
+    },
+    {
+        "color": "26",
+        "description": "\u00d4nix / Vermelho"
+    },
+    {
+        "color": "27",
+        "description": "Pinus"
+    },
+    {
+        "color": "28",
+        "description": "Estampado"
+    },
+    {
+        "color": "29",
+        "description": "Preto"
+    },
+    {
+        "color": "30",
+        "description": "Marrom / Bege / Branco"
+    },
+    {
+        "color": "31",
+        "description": "Bege / Azul Marinho"
+    },
+    {
+        "color": "32",
+        "description": "Bege / Estampado"
+    },
+    {
+        "color": "33",
+        "description": "Azul Marinho / Estampado"
+    },
+    {
+        "color": "34",
+        "description": "Vermelho / Bege"
+    },
+    {
+        "color": "35",
+        "description": "Caf\u00e9"
+    },
+    {
+        "color": "36",
+        "description": "Palha"
+    },
+    {
+        "color": "37",
+        "description": "Jeans"
+    },
+    {
+        "color": "38",
+        "description": "Azul / Branco"
+    },
+    {
+        "color": "39",
+        "description": "Caramelo"
+    },
+    {
+        "color": "40",
+        "description": "Marrom / Branco"
+    },
+    {
+        "color": "41",
+        "description": "Vermelho / Cavi\u00fana"
+    },
+    {
+        "color": "42",
+        "description": "Coral"
+    },
+    {
+        "color": "43",
+        "description": "Amarelo / Branco"
+    },
+    {
+        "color": "44",
+        "description": "Azul / Marrom / Branco"
+    },
+    {
+        "color": "45",
+        "description": "Verniz"
+    },
+    {
+        "color": "46",
+        "description": "Laranja"
+    },
+    {
+        "color": "47",
+        "description": "Marrom / Creme"
+    },
+    {
+        "color": "48",
+        "description": "Maple / Branco"
+    },
+    {
+        "color": "49",
+        "description": "Rosa"
+    },
+    {
+        "color": "50",
+        "description": "Vinho"
+    },
+    {
+        "color": "51",
+        "description": "Oouro Velho"
+    },
+    {
+        "color": "52",
+        "description": "Creme / Caramelo"
+    },
+    {
+        "color": "53",
+        "description": "Grafite"
+    },
+    {
+        "color": "54",
+        "description": "Granito"
+    },
+    {
+        "color": "55",
+        "description": "Granito / Cinza"
+    },
+    {
+        "color": "56",
+        "description": "Violeta"
+    },
+    {
+        "color": "57",
+        "description": "Roxo"
+    },
+    {
+        "color": "58",
+        "description": "Vermelho / Branco"
+    },
+    {
+        "color": "59",
+        "description": "Amarelo / Roxo"
+    },
+    {
+        "color": "60",
+        "description": "Amarelo / Azul"
+    },
+    {
+        "color": "61",
+        "description": "Verde / Preto"
+    },
+    {
+        "color": "62",
+        "description": "Roxo / Verde"
+    },
+    {
+        "color": "63",
+        "description": "Magenta"
+    },
+    {
+        "color": "64",
+        "description": "Azul / Vermelho"
+    },
+    {
+        "color": "65",
+        "description": "Azul / Pink"
+    },
+    {
+        "color": "66",
+        "description": "Lil\u00e1s"
+    },
+    {
+        "color": "67",
+        "description": "Branco / Violeta"
+    },
+    {
+        "color": "68",
+        "description": "Branco / Azul"
+    },
+    {
+        "color": "69",
+        "description": "Branco / Roxo"
+    },
+    {
+        "color": "70",
+        "description": "Preto / Branco"
+    },
+    {
+        "color": "71",
+        "description": "Cinza / Vermelho"
+    },
+    {
+        "color": "72",
+        "description": "Imbuia"
+    },
+    {
+        "color": "73",
+        "description": "Verde / Azul"
+    },
+    {
+        "color": "74",
+        "description": "Uva"
+    },
+    {
+        "color": "75",
+        "description": "Vermelho / Roxo"
+    },
+    {
+        "color": "76",
+        "description": "Cereja"
+    },
+    {
+        "color": "77",
+        "description": "Prata"
+    },
+    {
+        "color": "78",
+        "description": "Vermelho / Preto"
+    },
+    {
+        "color": "79",
+        "description": "Ferrugem"
+    },
+    {
+        "color": "80",
+        "description": "Vinho / Prata"
+    },
+    {
+        "color": "81",
+        "description": "Am\u00eandoa"
+    },
+    {
+        "color": "82",
+        "description": "Salm\u00e3o"
+    },
+    {
+        "color": "83",
+        "description": "Colonial"
+    },
+    {
+        "color": "84",
+        "description": "Mostarda"
+    },
+    {
+        "color": "85",
+        "description": "Requinte"
+    },
+    {
+        "color": "86",
+        "description": "Terracota"
+    },
+    {
+        "color": "87",
+        "description": "Cambraia"
+    },
+    {
+        "color": "88",
+        "description": "Indefinido"
+    },
+    {
+        "color": "90",
+        "description": "Basalto"
+    },
+    {
+        "color": "91",
+        "description": "Branco / Azul"
+    },
+    {
+        "color": "92",
+        "description": "Mogno"
+    },
+    {
+        "color": "93",
+        "description": "Tabaco / Branco"
+    },
+    {
+        "color": "94",
+        "description": "Mel"
+    },
+    {
+        "color": "95",
+        "description": "Imbuia / Branco"
+    },
+    {
+        "color": "96",
+        "description": "Imbuia / Maple"
+    },
+    {
+        "color": "97",
+        "description": "Tabaco Fosco"
+    },
+    {
+        "color": "98",
+        "description": "Tabaco"
+    },
+    {
+        "color": "99",
+        "description": "Tabaco / Maple"
+    }
+]
