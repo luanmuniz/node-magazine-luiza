@@ -16,7 +16,7 @@ magazineLuiza.catalog.getProducts();
 
 Esse método retorna uma Promise. O resultado da Promise é um array de objetos, com os produtos do catálogo, no formato:
 
-```js
+```json
 [
     {
         "action": "add",
