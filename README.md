@@ -20,7 +20,7 @@ Having trouble? Or new ideas? Post a new issue! We will be glad to help you!
 
 ## License
 
-[MIT License](http://zimp.mit-license.org) © Zimp Recompensas
+[MIT License][license-url] © Zimp Recompensas
 
 [circle-url]: https://circleci.com/gh/Zimpfidelidade/node-magazine-luiza
 [circle-image]: https://circleci.com/gh/ZimpFidelidade/node-magazine-luiza.svg?style=svg
@@ -33,3 +33,4 @@ Having trouble? Or new ideas? Post a new issue! We will be glad to help you!
 [node-image]: https://badge.fury.io/js/magazine-luiza.svg
 [node-url]: http://badge.fury.io/js/magazine-luiza
 [documentation-url]: https://zimp.gitbooks.io/magazine-luiza/content/
+[license-url]: http://zimp.mit-license.org
