@@ -1,2 +1,2 @@
-* [English](docs/en/)
-* [Português do Brasil](docs/pt-br/)
+* [English](en/)
+* [Português do Brasil](pt-br/)
