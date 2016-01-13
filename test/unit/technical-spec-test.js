@@ -18,7 +18,19 @@ describe('# MAGAZINE LUIZA API - CATALOG - TECHNICAL SPEC', function() {
 	it('Should return a Promise error if product code does not to pass',
 	function() {
 		magazineLuiza.catalog.getTechnicalSpec()
-			.catch(err => expect(err).to.be.equal('You must pass product id'))
+			.catch(err => expect(err).to.be.equal('You must pass SKU'))
+		;
+	});
+
+	it('Should return technical information passing SKU', function() {
+		const productID = '0842805';
+		const productModel = '00';
+		const sku = productID + productModel;
+
+		return magazineLuiza.catalog.getTechnicalSpec(sku)
+			.then(data => {
+				return expect(data).to.be.deep.equal(technicalSpecResult)
+			})
 		;
 	});
 });
