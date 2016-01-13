@@ -1,7 +1,7 @@
 {
   "global": {
     "statements": 100,
-    "branches": 85.71,
+    "branches": 94.44,
     "functions": 100,
     "lines": 100
   }
