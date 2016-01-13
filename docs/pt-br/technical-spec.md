@@ -8,18 +8,36 @@ Primeiro é necessário instanciar o objeto `MagazineLuizaAPI`, passando o seu I
 const magazineLuiza = new MagazineLuizaAPI('000');
 ```
 
-Após isso, use o método `getTechnicalSpec()` em `catalog`, passando o `SKU` do produto (Código + Modelo) para obter o catálogo:
+Após isso, use o método `getTechnicalSpec()` em `catalog`, passando o ID e o Modelo do produto:
 
 ```js
-magazineLuiza.catalog.getTechnicalSpec(sku);
+magazineLuiza.catalog.getTechnicalSpec(product.id, product.model);
 ```
 
-Para pegar o Código e Modelo do produto, é necessário buscar primeiro o catálogo de produtos:
+Para pegar o ID e Modelo do produto, é necessário buscar primeiro o catálogo de produtos, e então selecionar o produto que você quer as ficha técnica:
 
 ```js
 const catalog = magazineLuiza.catalog;
 catalog.getProducts()
-	.then(data => catalog.getTechnicalSpec(data.id + data.model))
+	.then(products => {
+		const product = products[0];
+		return catalog.getTechnicalSpec(product.id, product.model);
+	})
+	.then(techSpec => console.log(techSpec));
+```
+
+Ou então, para pegar a ficha técnica de todos os produtos:
+
+```js
+const catalog = magazineluiza.catalog;
+catalog.getProducts()
+	.then(products => {
+		const allProducts = products.map(product => {
+			return catalog.getTechnicalSpec(product.id, product.model);
+		});
+
+		return Promise.all(allProducts);
+	})
 	.then(techSpec => console.log(techSpec));
 ```
 
@@ -28,6 +46,8 @@ Esse método retorna uma Promise. O resultado da Promise é um array de objetos.
 ```json
 [
 	{
+		"productID": "1234",
+		"productModel": "00",
 		"title": "Informações Técnicas",
 		"description": "Descrição"
 	}
