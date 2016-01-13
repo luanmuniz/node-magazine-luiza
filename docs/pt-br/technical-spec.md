@@ -27,8 +27,10 @@ Esse método retorna uma Promise. O resultado da Promise é um array de objetos.
 
 ```json
 [
-	"title": "Informações Técnicas",
-	"description": "Descrição"
+	{
+		"title": "Informações Técnicas",
+		"description": "Descrição"
+	}
 ]
 ```
 
