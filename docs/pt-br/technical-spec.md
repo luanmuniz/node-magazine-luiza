@@ -14,7 +14,7 @@ Após isso, use o método `getTechnicalSpec()` em `catalog`, passando o ID e o M
 magazineLuiza.catalog.getTechnicalSpec(product.id, product.model);
 ```
 
-Para pegar o ID e Modelo do produto, é necessário buscar primeiro o catálogo de produtos, e então selecionar o produto que você quer as ficha técnica:
+Para pegar o ID e Modelo do produto, é necessário buscar primeiro o catálogo de produtos, e então selecionar o produto que você quer a ficha técnica:
 
 ```js
 const catalog = magazineLuiza.catalog;
@@ -41,16 +41,28 @@ catalog.getProducts()
 	.then(techSpec => console.log(techSpec));
 ```
 
-Esse método retorna uma Promise. O resultado da Promise é um array de objetos. Cada objeto contém duas propriedades: `title` e `description`, para cada informação técnica, no formato:
+Esse método retorna uma Promise. O resultado da Promise é um objeto com dois itens:
+
+`product`, com as informações do produto (ID e Modelo);
+`specs`, que é um array de objetos com as especificações desse produto.
+
+Cada objeto no array `specs` contém duas propriedades: `title` e `description`, para cada informação técnica. O formato do objeto é:
 
 ```json
-[
-	{
-		"productID": "1234",
-		"productModel": "00",
-		"title": "Informações Técnicas",
-		"description": "Descrição"
-	}
-]
+{
+	"product": {
+		"id": "1234",
+		"model": "00"
+	},
+	"specs": [
+		{
+			"title": "Informações Técnicas",
+			"description": "Descrição"
+		}, {
+			"title": "Outras informações",
+			"description": "Descrição"
+		}
+	]
+}
 ```
 
