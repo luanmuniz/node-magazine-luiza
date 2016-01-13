@@ -29,7 +29,7 @@ describe('# MAGAZINE LUIZA API - CATALOG - TECHNICAL SPEC', function() {
 
 		return magazineLuiza.catalog.getTechnicalSpec(sku)
 			.then(data => {
-				return expect(data).to.be.deep.equal(technicalSpecResult)
+				return expect(data).to.be.deep.equal(technicalSpecResult);
 			})
 		;
 	});
