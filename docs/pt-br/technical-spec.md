@@ -4,7 +4,7 @@
 
 Primeiro é necessário instanciar o objeto `MagazineLuizaAPI`, passando o seu ID:
 
-```
+```js
 const magazineLuiza = new MagazineLuizaAPI('000');
 ```
 

@@ -4,13 +4,13 @@
 
 Primeiro é necessário instanciar o objeto `MagazineLuizaAPI`, passando o seu ID:
 
-```
+```js
 const magazineLuiza = new MagazineLuizaAPI('000');
 ```
 
 Após isso, use o método `getProducts()` em `catalog` para obter o catálogo:
 
-```
+```js
 magazineLuiza.catalog.getProducts();
 ```
 
