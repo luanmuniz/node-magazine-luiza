@@ -1,122 +1,128 @@
-[
-    {
-        "description": " Conhe\u00e7a o novo aparelho da Apple, o iPhone 6! Ele n\u00e3o possui apenas, uma design maior. Ele \u00e9 grande em todos os sentidos.\nMesmo sendo maior, ele possui um design muito mais fino. Poderoso, consome menos energia.\n\nSua superf\u00edcie \u00e9 lisa de metal e se integra perfeitamente \u00e0 tela de retina HD, onde hardware e software funcionam em perfeita harmonia. Com elementos e materiais cuidadosamente pensados, cont\u00e9m um perfil e bot\u00f5es especialmente posicionados, para voc\u00ea usar de forma mais intuitiva.\n\nAl\u00e9m de encaixar perfeitamente na palma das m\u00e3os, ainda conta com uma super tela Multi-Touch de retina HD, com vidro que se curva nas laterais e se integra ao alum\u00ednio anodizado. Para um desempenho impec\u00e1vel, ele conta com o novo chip A8 que vem com a segunda gera\u00e7\u00e3o da arquitetura de 64 bits. Seu desempenho fica ainda maior com ajuda do coprocessador de movimentos M8, que registra suas atividades por meio de sensores sofisticados como o novo bar\u00f4metro. Al\u00e9m disso, a bateria tamb\u00e9m est\u00e1 melhor. Para voc\u00ea fazer muito mais e por mais tempo.\n\nA c\u00e2mera iSight tem um codificador de v\u00eddeo e um processador de sinal de imagem desenvolvidos pela Apple e integrados ao chip A8. Eles s\u00e3o compat\u00edveis com recursos avan\u00e7ados de c\u00e2mera e v\u00eddeo, como o novo Focus Pixels, melhor detec\u00e7\u00e3o de rostos, foco autom\u00e1tico cont\u00ednuo e melhor redu\u00e7\u00e3o de ru\u00eddos. Ficou ainda mais f\u00e1cil tirar fotos e gravar v\u00eddeos com mais qualidade. E claro, ele j\u00e1 vem com a mais nova vers\u00e3o do sistema operacional iOS, o iOS 8.",
-        "title": "Apresenta\u00e7\u00e3o do produto"
+{
+    "product": {
+        "id": "0842805",
+        "model": "00"
     },
-    {
-        "description": " Marca: Apple, Refer\u00eancia: MG3K2BZ/A., Cor: Prata, Modelo: iPhone 6",
-        "title": "Informa\u00e7\u00f5es t\u00e9cnicas"
-    },
-    {
-        "description": "  64GB",
-        "title": "Capacidade"
-    },
-    {
-        "description": " Tipo: HD. Retina, Tamanho: (diagonal). 4,7\", Resolu\u00e7\u00e3o: 1334 x 750 pixels, 326 ppi., Benef\u00edcios: - Multi-Touch;\n- Retroiluminada por LED, com tecnologia IPS;\n- Propor\u00e7\u00e3o de contraste: 1400:1 (t\u00edpica);\n- Brilho m\u00e1x. 500 cd/m2 (t\u00edpico);\n- Padr\u00e3o Full sRGB;\n- Pixels dual-domain para \u00e2ngulos de visualiza\u00e7\u00e3o mais amplos;\n- Revestimento frontal resistente a impress\u00e3o digital e oleosidade;\n- Suporte simult\u00e2neo a v\u00e1rios idiomas e caracteres;\n- Zoom de tela;\n- Alcan\u00e7abilidade.",
-        "title": "Tela"
-    },
-    {
-        "description": " A8 - M8 (Chip A8 com arquitetura de 64 bits - Coprocessador de movimento M8).",
-        "title": "Processador/Chip"
-    },
-    {
-        "description": " Operadora:  Desbloqueado para todas as operadoras, Bluetooth:  4.0, Wi-Fi: (802.11a/b/g/n/ac). Sim, 3G:  Sim, 4G: (LTE).\n\nObserva\u00e7\u00e3o: 4G/LTE s\u00f3 est\u00e1 dispon\u00edvel em alguns pa\u00edses e atrav\u00e9s de determinadas operadoras. As velocidades s\u00e3o baseadas em taxas de transfer\u00eancia te\u00f3ricas e variam de acordo com as condi\u00e7\u00f5es do local. Para obter detalhes sobre a compatibilidade com 4G LTE, entre em contato com a sua operadora e consulte www.apple.com/iphone/LTE. sim, Outras fun\u00e7\u00f5es: - Modelo A1549 (GSM)*: UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz);\n- Modelo A1522 (GSM)*: GSM/EDGE (850, 900, 1800, 1900 MHz) / LTE (Bandas 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26, 28, 29);\n\n- Modelo A1549 (CDMA)*: CDMA EV-DO Rev. A e Rev. B (800, 1700/2100, 1900, 2100 MHz);\n- Modelo A1522 (CDMA)*: UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz) / GSM/EDGE (850, 900, 1800, 1900 MHz) / LTE (Bandas 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26, 28, 29);\n\n- Modelo A1586 (GSM)*: UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz);\n- Modelo A1524 (GSM)*: TD-SCDMA 1900 (F), 2000 (A) / GSM/EDGE (850, 900, 1800, 1900 MHz) / FDD-LTE (Bandas 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26, 28, 29) / TD-LTE (Bandas 38, 39, 40, 41);\n\n- Modelo A1586 (CDMA)*: CDMA EV-DO Rev. A e Rev. B (800, 1700/2100, 1900, 2100 MHz);\n- Modelo A1524 (CDMA)*: UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz) / TD-SCDMA 1900 (F), 2000 (A) / GSM/EDGE (850, 900, 1800, 1900 MHz) / FDD-LTE (Bandas 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26, 28, 29) / TD-LTE (Bandas 38, 39, 40, 41).",
-        "title": "Wireless e Celular"
-    },
-    {
-        "description": " HD:  sim, Resolu\u00e7\u00e3o: 1,2 megapixel (1280 x 960)., V\u00eddeos em HD:  sim, Resolu\u00e7\u00e3o: 720p., Detec\u00e7\u00e3o de rostos: (aprimorada). Sim, Retroilumina\u00e7\u00e3o:  sim, Outras fun\u00e7\u00f5es: - Abertura \u0192/2.2;\n- HDR autom\u00e1tico para fotos e v\u00eddeos;\n- Modo cont\u00ednuo;\n- Controle de exposi\u00e7\u00e3o.",
-        "title": "C\u00e2mera FaceTime"
-    },
-    {
-        "description": " HD:  sim, Resolu\u00e7\u00e3o: 1080p (30 qps ou 60 qps)., Detec\u00e7\u00e3o de rostos: (aprimorada). sim, Zoom:  3x, Outras fun\u00e7\u00f5es: - Flash True Tone;\n- V\u00eddeo em c\u00e2mera lenta (120 qps ou 240 qps);\n- V\u00eddeo em modo time-lapse;\n- Estabiliza\u00e7\u00e3o cinem\u00e1tica de v\u00eddeo;\n- V\u00eddeo com foto autom\u00e1tico cont\u00ednuo;\n- Tire fotos durante a grava\u00e7\u00e3o de um v\u00eddeo;\n- V\u00eddeos com localiza\u00e7\u00e3o geogr\u00e1fica.",
-        "title": "Grava\u00e7\u00e3o de v\u00eddeo"
-    },
-    {
-        "description": " Fotos: 8 megapixels com pixels de 1,5 \u00b5., Foco autom\u00e1tico: com Focus Pixels. sim, Detec\u00e7\u00e3o de rostos: (aprimorada). sim, Retroilumina\u00e7\u00e3o:  sim, Lente: De cristal safira, cinco elementos., Filtros: IV h\u00edbrido., Abertura: \u0192/2.2., Outras fun\u00e7\u00f5es: - Estabiliza\u00e7\u00e3o \u00f3ptica de imagem (somente iPhone 6 Plus);\n- Flash True Tone;\n- Estabiliza\u00e7\u00e3o autom\u00e1tica de imagem;\n- HDR autom\u00e1tico para fotos;\n- Controle de exposi\u00e7\u00e3o;\n- Panorama (at\u00e9 43 megapixels);\n- Modo cont\u00ednuo;\n- Um toque para o foco;\n- Fotos com localiza\u00e7\u00e3o geogr\u00e1fica;\n- Timer.",
-        "title": "C\u00e2mera iSight"
-    },
-    {
-        "description": " Controles externos:  Ligar/Desligar Dormir/Acordar Volume Silencioso In\u00edcio/Sensor Touch ID, Conectores, entradas e sa\u00eddas: - Microfone;\n- Conector Lightning;\n- Miniconector de 3,5 mm para fone de ouvido est\u00e9reo;\n- Alto-falante interno.",
-        "title": "Bot\u00f5es e conectores"
-    },
-    {
-        "description": " Tipo de bateria: \u00cdon de L\u00edtio recarreg\u00e1vel., Autonomia da bateria: - Tempo de conversa\u00e7\u00e3o: at\u00e9 14 horas em 3G;\n- Tempo em espera: at\u00e9 10 dias (250 horas);\n- Uso da Internet: at\u00e9 10 horas em 3G, at\u00e9 10 horas em 4G LTE, at\u00e9 11 horas em Wi-Fi;\n- Reprodu\u00e7\u00e3o de v\u00eddeo: at\u00e9 11 horas;\n- Reprodu\u00e7\u00e3o de \u00e1udio: at\u00e9 50 horas., Carregamento: Carga via USB do computador ou carregador., Alimenta\u00e7\u00e3o da fonte: Bivolt",
-        "title": "Energia e bateria"
-    },
-    {
-        "description": " Fone de ouvido: Apple EarPods com controle remoto e microfone (com caixa para armazenamento e viagem)., Alto-falantes: Sim - interno., Microfone: Sim.",
-        "title": "Entradas e sa\u00eddas"
-    },
-    {
-        "description": " (O iPhone 6 n\u00e3o \u00e9 compat\u00edvel com os cart\u00f5es micro SIM existentes). sim",
-        "title": "Bandeja para cart\u00e3o nano"
-    },
-    {
-        "description": " Lightning.",
-        "title": "Conector"
-    },
-    {
-        "description": " Girosc\u00f3pio de 3 eixos:  Sim, Aceler\u00f4metro:  Sim, Luz ambiente:  sim, Bar\u00f4metro:  Sim, Sensor de impress\u00e3o digital: (Touch ID - Sensor de impress\u00e3o digital integrado ao bot\u00e3o de In\u00edcio). sim, Sensor de proximidade:  sim",
-        "title": "Sensores"
-    },
-    {
-        "description": " Vers\u00e3o do IOS: O iOS 8 \u00e9 a maior atualiza\u00e7\u00e3o de iOS at\u00e9 hoje, com novas funcionalidades e atualiza\u00e7\u00f5es incr\u00edveis dos recursos que voc\u00ea sempre usa. 8, Inclusos no IOS:  iCloud Compartilhamento Familiar Central de Controle Teclado QuickType Multitarefa AirPlay AirDrop Central de Notifica\u00e7\u00f5es Busca no Spotlight",
-        "title": "Sistema Operacional"
-    },
-    {
-        "description": " Inclusos: - C\u00e2mera;\n- Fotos;\n- Sa\u00fade;\n- Mensagens;\n- Telefone;\n- FaceTime;\n- Mail;\n- M\u00fasica;\n- Passbook;\n- Safari;\n- Mapas;\n- Calend\u00e1rio;\n- iTunes Store;\n- App Store;\n- Notas;\n- Contatos;\n- iBooks;\n- Game Center;\n- Tempo;\n- Lembretes;\n- Gravador;\n- Rel\u00f3gio;\n- V\u00eddeos;\n- Bolsa;\n- Calculadora;\n- Banca;\n- B\u00fassola;\n- Podcasts., Gratuitos: - iMovie;\n- Pages;\n- Keynote;\n- Numbers;\n- iTunes U;\n- GarageBand;\n- Remote;\n- Buscar iPhone;\n- Buscar Meus Amigos.",
-        "title": "Aplicativos"
-    },
-    {
-        "description": " Wi-fi:  sim, B\u00fassola digital:  sim, GPS assistido: (GLONASS). sim, Celular:  sim, Microlocaliza\u00e7\u00e3o iBeacon.:  sim",
-        "title": "Localiza\u00e7\u00e3o"
-    },
-    {
-        "description": " Video: FaceTime com v\u00eddeo;\n- Inicie chamadas com v\u00eddeo via Wi-Fi ou celular para qualquer dispositivo habilitado para FaceTime;\n- O FaceTime via celular usa H.264/H.265. sim, Chamadas com \u00e1udio: - FaceTime com \u00e1udio;\n- Do iPhone 6 para qualquer dispositivo habilitado para FaceTime de \u00e1udio via Wi-Fi ou celular.",
-        "title": "Chamadas"
-    },
-    {
-        "description": " Resposta de Frequ\u00eancia: - AAC (8 a 320 Kbps);\n- AAC Protegido (da iTunes Store);\n- MP3 (8 a 320 Kbps)., Formatos compat\u00edveis: - AAC;\n- AAC Protegido;\n- HE-AAC;\n- MP3;\n- MP3 VBR;\n- Audible (formatos 2, 3, 4, Audible Enhanced Audio, AAX e AAX+);\n- Apple Lossless;\n- AIFF;\n- WAV., Outros recursos: Limite m\u00e1ximo de volume configur\u00e1vel pelo usu\u00e1rio.",
-        "title": "Reprodu\u00e7\u00e3o de \u00e1udio"
-    },
-    {
-        "description": " Compatibilidade: Com espelhamento de v\u00eddeo e sa\u00edda de v\u00eddeo de at\u00e9 1080p via Adaptador de Lightning para AV Digital e Adaptador de Lightning para VGA (vendidos separadamente)., Formatos de v\u00eddeo compat\u00edveis: - V\u00eddeo H.264 de at\u00e9 1080 pixels, 60 quadros por segundo, High Profile n\u00edvel 4.2 com \u00e1udio AAC-LC de at\u00e9 160 Kbps, 48kHz, som est\u00e9reo nos formatos de arquivo .m4v, .mp4 e .mov;\n\n- V\u00eddeo MPEG-4 de at\u00e9 2,5 Mbps, 640 x 480 pixels, 30 quadros por segundo, Simple Profile com \u00e1udio AAC-LC de at\u00e9 160 Kbps por canal, 48kHz, som est\u00e9reo nos formatos de arquivo .m4v, .mp4 e .mov;\n\n- Motion JPEG (M-JPEG) de at\u00e9 35 Mbps, 1280 x 720 pixels, 30 quadros por segundo, \u00e1udio in ulaw, \u00e1udio est\u00e9reo PCM no formato de arquivo .avi.",
-        "title": "TV e V\u00eddeo"
-    },
-    {
-        "description": " Tipos de documentos que podem ser visualizados: .jpg, .tiff, .gif (imagens); .doc e .docx (Microsoft Word); .htm e .html (p\u00e1ginas web); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview e Adobe Acrobat); .ppt e .pptx (Microsoft PowerPoint); .txt (texto); .rtf (rich text format); .vcf (informa\u00e7\u00f5es de contatos); .xls e .xlsx (Microsoft Excel); .zip; .ics.",
-        "title": "Formatos de anexo compat\u00edveis com o Mail"
-    },
-    {
-        "description": " Suporte a v\u00e1rios idiomas: Ingl\u00eas (Austr\u00e1lia, Canad\u00e1, Reino Unido, EUA), chin\u00eas (simplificado, tradicional, tradicional Hong Kong), franc\u00eas (Canad\u00e1, Fran\u00e7a), alem\u00e3o, italiano, japon\u00eas, coreano, espanhol (M\u00e9xico, Espanha), \u00e1rabe, catal\u00e3o, croata, checo, dinamarqu\u00eas, holand\u00eas, finland\u00eas, grego, hebraico, hindi, h\u00fangaro, indon\u00e9sio, malaio, noruegu\u00eas, polon\u00eas, portugu\u00eas (Brasil, Portugal), romeno, russo, eslovaco, sueco, tailand\u00eas, turco, ucraniano, vietnamita., Suporte de teclado: - QuickType: Ingl\u00eas (Austr\u00e1lia, Canad\u00e1, \u00cdndia, Reino Unido, EUA), chin\u00eas - simplificado (manuscrito, Pinyin, Stroke), chin\u00eas - tradicional (Cangjie, Handwriting, Pinyin, Stroke, Sucheng, Zhuyin), franc\u00eas (Canad\u00e1, Fran\u00e7a, Su\u00ed\u00e7a), alem\u00e3o (Alemanha, Su\u00ed\u00e7a), italiano, japon\u00eas (Kana, Romaji), coreano, espanhol, \u00e1rabe, bengali, b\u00falgaro, catal\u00e3o, cherokee, croata, checo, dinamarqu\u00eas, holand\u00eas, emoji, estoniano, filipino, finland\u00eas, flamengo, grego, havaiano, hebraico, hindi, h\u00fangaro, island\u00eas, indon\u00e9sio, let\u00e3o, lituano, maced\u00f4nio, malaio, marathi, noruegu\u00eas, polon\u00eas, portugu\u00eas (Brasil), romeno, russo, s\u00e9rvio (cir\u00edlico, latino), eslovaco, esloveno, sueco, t\u00e2mil, tailand\u00eas, turco, ucraniano, urdu, vietnamita;\n\n- QuickType com texto preditivo8: Ingl\u00eas (Austr\u00e1lia, Canad\u00e1, \u00cdndia, Reino Unido, EUA), chin\u00eas (simplificado, tradicional), franc\u00eas (Canad\u00e1, Fran\u00e7a, Su\u00ed\u00e7a), alem\u00e3o (Alemanha, Su\u00ed\u00e7a), italiano, japon\u00eas, espanhol, portugu\u00eas (Brasil), tailand\u00eas., Suporte de dicion\u00e1rio: Ingl\u00eas, chin\u00eas (simplificado), franc\u00eas, alem\u00e3o, italiano, japon\u00eas, coreano, espanhol, holand\u00eas, portugu\u00eas (Brasil), russo, tailand\u00eas, turco;\n\n- Idiomas do recurso Ditado: Ingl\u00eas (Austr\u00e1lia, Canad\u00e1, Reino Unido, EUA), espanhol, (M\u00e9xico, Espanha, EUA), franc\u00eas (Canad\u00e1, Fran\u00e7a, Su\u00ed\u00e7a), alem\u00e3o (Alemanha, Su\u00ed\u00e7a), italiano (It\u00e1lia, Su\u00ed\u00e7a), japon\u00eas, coreano, espanhol, mandarim (China Continental, Taiwan), canton\u00eas (Hong Kong), catal\u00e3o, croata, tcheco, dinamarqu\u00eas, holand\u00eas, finland\u00eas, grego, h\u00fangaro, indon\u00e9sio, malaio, noruegu\u00eas, polon\u00eas, portugu\u00eas (Brasil, Portugal), romeno, russo, eslovaco, sueco, turco, tailand\u00eas, ucraniano, vietnamita;\n\n- Suporte a dicion\u00e1rio bil\u00edngue: Chin\u00eas simplificado, japon\u00eas, coreano, espanhol;\n\n- Verifica\u00e7\u00e3o ortogr\u00e1fica: Ingl\u00eas (Austr\u00e1lia, Canad\u00e1, Reino Unido, EUA), franc\u00eas, alem\u00e3o, italiano, espanhol, dinamarqu\u00eas, holand\u00eas, polon\u00eas, portugu\u00eas (Brasil, Portugal), russo, sueco, turco., Idiomas do Siri: Ingl\u00eas (Austr\u00e1lia, Canad\u00e1, Reino Unido, EUA), espanhol (M\u00e9xico, Espanha, EUA), franc\u00eas (Canad\u00e1, Fran\u00e7a, Su\u00ed\u00e7a), alem\u00e3o (Alemanha, Su\u00ed\u00e7a), italiano (It\u00e1lia, Su\u00ed\u00e7a), japon\u00eas, coreano, mandarim (China Continental, Taiwan), canton\u00eas (Hong Kong).",
-        "title": "Idioma"
-    },
-    {
-        "description": " Temperatura operacional: 0 a 35 \u00b0C (32 a 95 \u00b0F)., Temperatura n\u00e3o-operacional: -20 a 45 \u00b0C (-4 a 113 \u00b0F)., Umidade relativa: 5% a 95%, sem condensa\u00e7\u00e3o.\n\n- Altitude operacional: testada at\u00e9 3.000 m (10.000 p\u00e9s).",
-        "title": "Requisitos ambientais"
-    },
-    {
-        "description": " MAC: OS X v10.6.8 ou posterior., Windows: Windows 8, Windows 7, Windows Vista, Windows XP Home ou Professional com Service Pack 3 ou posterior., Outros: - ID Apple (necess\u00e1rio para alguns recursos);\n- Acesso \u00e0 Internet7;\n- iTunes 11.4 ou posterior (baixe de gra\u00e7a em www.itunes.com/br/download).",
-        "title": "Requisitos do sistema"
-    },
-    {
-        "description": " Peso do produto: 129 gramas.",
-        "title": "Peso aproximado"
-    },
-    {
-        "description": " Largura: 6,7 cm., Altura: 13,81 cm., Profundidade: 0,69 cm.",
-        "title": "Dimens\u00f5es do produto"
-    },
-    {
-        "description": "  01 ano (3 meses de garantia legal e mais 9 meses de garantia especial concedida pelo fabricante).",
-        "title": "Prazo"
-    },
-    {
-        "description": " (Modelo A1549, A1586): M3, T4.",
-        "title": "Itens especiais 1"
-    },
-    {
-        "description": " - 01 iPhone com iOS 8;\n- 01 Apple EarPods com Controle Remoto e Microfone;\n- 01 Cabo de Lightning para USB;\n- 01 Carregador USB;\n- 01 Kit Documenta\u00e7\u00e3o.",
-        "title": "Itens inclusos"
-    }
-]
+    "specs": [
+        {
+            "description": " Conhe\u00e7a o novo aparelho da Apple, o iPhone 6! Ele n\u00e3o possui apenas, uma design maior. Ele \u00e9 grande em todos os sentidos.\nMesmo sendo maior, ele possui um design muito mais fino. Poderoso, consome menos energia.\n\nSua superf\u00edcie \u00e9 lisa de metal e se integra perfeitamente \u00e0 tela de retina HD, onde hardware e software funcionam em perfeita harmonia. Com elementos e materiais cuidadosamente pensados, cont\u00e9m um perfil e bot\u00f5es especialmente posicionados, para voc\u00ea usar de forma mais intuitiva.\n\nAl\u00e9m de encaixar perfeitamente na palma das m\u00e3os, ainda conta com uma super tela Multi-Touch de retina HD, com vidro que se curva nas laterais e se integra ao alum\u00ednio anodizado. Para um desempenho impec\u00e1vel, ele conta com o novo chip A8 que vem com a segunda gera\u00e7\u00e3o da arquitetura de 64 bits. Seu desempenho fica ainda maior com ajuda do coprocessador de movimentos M8, que registra suas atividades por meio de sensores sofisticados como o novo bar\u00f4metro. Al\u00e9m disso, a bateria tamb\u00e9m est\u00e1 melhor. Para voc\u00ea fazer muito mais e por mais tempo.\n\nA c\u00e2mera iSight tem um codificador de v\u00eddeo e um processador de sinal de imagem desenvolvidos pela Apple e integrados ao chip A8. Eles s\u00e3o compat\u00edveis com recursos avan\u00e7ados de c\u00e2mera e v\u00eddeo, como o novo Focus Pixels, melhor detec\u00e7\u00e3o de rostos, foco autom\u00e1tico cont\u00ednuo e melhor redu\u00e7\u00e3o de ru\u00eddos. Ficou ainda mais f\u00e1cil tirar fotos e gravar v\u00eddeos com mais qualidade. E claro, ele j\u00e1 vem com a mais nova vers\u00e3o do sistema operacional iOS, o iOS 8.",
+            "title": "Apresenta\u00e7\u00e3o do produto"
+        },
+        {
+            "description": " Marca: Apple, Refer\u00eancia: MG3K2BZ/A., Cor: Prata, Modelo: iPhone 6",
+            "title": "Informa\u00e7\u00f5es t\u00e9cnicas"
+        },
+        {
+            "description": "  64GB",
+            "title": "Capacidade"
+        },
+        {
+            "description": " Tipo: HD. Retina, Tamanho: (diagonal). 4,7\", Resolu\u00e7\u00e3o: 1334 x 750 pixels, 326 ppi., Benef\u00edcios: - Multi-Touch;\n- Retroiluminada por LED, com tecnologia IPS;\n- Propor\u00e7\u00e3o de contraste: 1400:1 (t\u00edpica);\n- Brilho m\u00e1x. 500 cd/m2 (t\u00edpico);\n- Padr\u00e3o Full sRGB;\n- Pixels dual-domain para \u00e2ngulos de visualiza\u00e7\u00e3o mais amplos;\n- Revestimento frontal resistente a impress\u00e3o digital e oleosidade;\n- Suporte simult\u00e2neo a v\u00e1rios idiomas e caracteres;\n- Zoom de tela;\n- Alcan\u00e7abilidade.",
+            "title": "Tela"
+        },
+        {
+            "description": " A8 - M8 (Chip A8 com arquitetura de 64 bits - Coprocessador de movimento M8).",
+            "title": "Processador/Chip"
+        },
+        {
+            "description": " Operadora:  Desbloqueado para todas as operadoras, Bluetooth:  4.0, Wi-Fi: (802.11a/b/g/n/ac). Sim, 3G:  Sim, 4G: (LTE).\n\nObserva\u00e7\u00e3o: 4G/LTE s\u00f3 est\u00e1 dispon\u00edvel em alguns pa\u00edses e atrav\u00e9s de determinadas operadoras. As velocidades s\u00e3o baseadas em taxas de transfer\u00eancia te\u00f3ricas e variam de acordo com as condi\u00e7\u00f5es do local. Para obter detalhes sobre a compatibilidade com 4G LTE, entre em contato com a sua operadora e consulte www.apple.com/iphone/LTE. sim, Outras fun\u00e7\u00f5es: - Modelo A1549 (GSM)*: UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz);\n- Modelo A1522 (GSM)*: GSM/EDGE (850, 900, 1800, 1900 MHz) / LTE (Bandas 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26, 28, 29);\n\n- Modelo A1549 (CDMA)*: CDMA EV-DO Rev. A e Rev. B (800, 1700/2100, 1900, 2100 MHz);\n- Modelo A1522 (CDMA)*: UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz) / GSM/EDGE (850, 900, 1800, 1900 MHz) / LTE (Bandas 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26, 28, 29);\n\n- Modelo A1586 (GSM)*: UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz);\n- Modelo A1524 (GSM)*: TD-SCDMA 1900 (F), 2000 (A) / GSM/EDGE (850, 900, 1800, 1900 MHz) / FDD-LTE (Bandas 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26, 28, 29) / TD-LTE (Bandas 38, 39, 40, 41);\n\n- Modelo A1586 (CDMA)*: CDMA EV-DO Rev. A e Rev. B (800, 1700/2100, 1900, 2100 MHz);\n- Modelo A1524 (CDMA)*: UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz) / TD-SCDMA 1900 (F), 2000 (A) / GSM/EDGE (850, 900, 1800, 1900 MHz) / FDD-LTE (Bandas 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26, 28, 29) / TD-LTE (Bandas 38, 39, 40, 41).",
+            "title": "Wireless e Celular"
+        },
+        {
+            "description": " HD:  sim, Resolu\u00e7\u00e3o: 1,2 megapixel (1280 x 960)., V\u00eddeos em HD:  sim, Resolu\u00e7\u00e3o: 720p., Detec\u00e7\u00e3o de rostos: (aprimorada). Sim, Retroilumina\u00e7\u00e3o:  sim, Outras fun\u00e7\u00f5es: - Abertura \u0192/2.2;\n- HDR autom\u00e1tico para fotos e v\u00eddeos;\n- Modo cont\u00ednuo;\n- Controle de exposi\u00e7\u00e3o.",
+            "title": "C\u00e2mera FaceTime"
+        },
+        {
+            "description": " HD:  sim, Resolu\u00e7\u00e3o: 1080p (30 qps ou 60 qps)., Detec\u00e7\u00e3o de rostos: (aprimorada). sim, Zoom:  3x, Outras fun\u00e7\u00f5es: - Flash True Tone;\n- V\u00eddeo em c\u00e2mera lenta (120 qps ou 240 qps);\n- V\u00eddeo em modo time-lapse;\n- Estabiliza\u00e7\u00e3o cinem\u00e1tica de v\u00eddeo;\n- V\u00eddeo com foto autom\u00e1tico cont\u00ednuo;\n- Tire fotos durante a grava\u00e7\u00e3o de um v\u00eddeo;\n- V\u00eddeos com localiza\u00e7\u00e3o geogr\u00e1fica.",
+            "title": "Grava\u00e7\u00e3o de v\u00eddeo"
+        },
+        {
+            "description": " Fotos: 8 megapixels com pixels de 1,5 \u00b5., Foco autom\u00e1tico: com Focus Pixels. sim, Detec\u00e7\u00e3o de rostos: (aprimorada). sim, Retroilumina\u00e7\u00e3o:  sim, Lente: De cristal safira, cinco elementos., Filtros: IV h\u00edbrido., Abertura: \u0192/2.2., Outras fun\u00e7\u00f5es: - Estabiliza\u00e7\u00e3o \u00f3ptica de imagem (somente iPhone 6 Plus);\n- Flash True Tone;\n- Estabiliza\u00e7\u00e3o autom\u00e1tica de imagem;\n- HDR autom\u00e1tico para fotos;\n- Controle de exposi\u00e7\u00e3o;\n- Panorama (at\u00e9 43 megapixels);\n- Modo cont\u00ednuo;\n- Um toque para o foco;\n- Fotos com localiza\u00e7\u00e3o geogr\u00e1fica;\n- Timer.",
+            "title": "C\u00e2mera iSight"
+        },
+        {
+            "description": " Controles externos:  Ligar/Desligar Dormir/Acordar Volume Silencioso In\u00edcio/Sensor Touch ID, Conectores, entradas e sa\u00eddas: - Microfone;\n- Conector Lightning;\n- Miniconector de 3,5 mm para fone de ouvido est\u00e9reo;\n- Alto-falante interno.",
+            "title": "Bot\u00f5es e conectores"
+        },
+        {
+            "description": " Tipo de bateria: \u00cdon de L\u00edtio recarreg\u00e1vel., Autonomia da bateria: - Tempo de conversa\u00e7\u00e3o: at\u00e9 14 horas em 3G;\n- Tempo em espera: at\u00e9 10 dias (250 horas);\n- Uso da Internet: at\u00e9 10 horas em 3G, at\u00e9 10 horas em 4G LTE, at\u00e9 11 horas em Wi-Fi;\n- Reprodu\u00e7\u00e3o de v\u00eddeo: at\u00e9 11 horas;\n- Reprodu\u00e7\u00e3o de \u00e1udio: at\u00e9 50 horas., Carregamento: Carga via USB do computador ou carregador., Alimenta\u00e7\u00e3o da fonte: Bivolt",
+            "title": "Energia e bateria"
+        },
+        {
+            "description": " Fone de ouvido: Apple EarPods com controle remoto e microfone (com caixa para armazenamento e viagem)., Alto-falantes: Sim - interno., Microfone: Sim.",
+            "title": "Entradas e sa\u00eddas"
+        },
+        {
+            "description": " (O iPhone 6 n\u00e3o \u00e9 compat\u00edvel com os cart\u00f5es micro SIM existentes). sim",
+            "title": "Bandeja para cart\u00e3o nano"
+        },
+        {
+            "description": " Lightning.",
+            "title": "Conector"
+        },
+        {
+            "description": " Girosc\u00f3pio de 3 eixos:  Sim, Aceler\u00f4metro:  Sim, Luz ambiente:  sim, Bar\u00f4metro:  Sim, Sensor de impress\u00e3o digital: (Touch ID - Sensor de impress\u00e3o digital integrado ao bot\u00e3o de In\u00edcio). sim, Sensor de proximidade:  sim",
+            "title": "Sensores"
+        },
+        {
+            "description": " Vers\u00e3o do IOS: O iOS 8 \u00e9 a maior atualiza\u00e7\u00e3o de iOS at\u00e9 hoje, com novas funcionalidades e atualiza\u00e7\u00f5es incr\u00edveis dos recursos que voc\u00ea sempre usa. 8, Inclusos no IOS:  iCloud Compartilhamento Familiar Central de Controle Teclado QuickType Multitarefa AirPlay AirDrop Central de Notifica\u00e7\u00f5es Busca no Spotlight",
+            "title": "Sistema Operacional"
+        },
+        {
+            "description": " Inclusos: - C\u00e2mera;\n- Fotos;\n- Sa\u00fade;\n- Mensagens;\n- Telefone;\n- FaceTime;\n- Mail;\n- M\u00fasica;\n- Passbook;\n- Safari;\n- Mapas;\n- Calend\u00e1rio;\n- iTunes Store;\n- App Store;\n- Notas;\n- Contatos;\n- iBooks;\n- Game Center;\n- Tempo;\n- Lembretes;\n- Gravador;\n- Rel\u00f3gio;\n- V\u00eddeos;\n- Bolsa;\n- Calculadora;\n- Banca;\n- B\u00fassola;\n- Podcasts., Gratuitos: - iMovie;\n- Pages;\n- Keynote;\n- Numbers;\n- iTunes U;\n- GarageBand;\n- Remote;\n- Buscar iPhone;\n- Buscar Meus Amigos.",
+            "title": "Aplicativos"
+        },
+        {
+            "description": " Wi-fi:  sim, B\u00fassola digital:  sim, GPS assistido: (GLONASS). sim, Celular:  sim, Microlocaliza\u00e7\u00e3o iBeacon.:  sim",
+            "title": "Localiza\u00e7\u00e3o"
+        },
+        {
+            "description": " Video: FaceTime com v\u00eddeo;\n- Inicie chamadas com v\u00eddeo via Wi-Fi ou celular para qualquer dispositivo habilitado para FaceTime;\n- O FaceTime via celular usa H.264/H.265. sim, Chamadas com \u00e1udio: - FaceTime com \u00e1udio;\n- Do iPhone 6 para qualquer dispositivo habilitado para FaceTime de \u00e1udio via Wi-Fi ou celular.",
+            "title": "Chamadas"
+        },
+        {
+            "description": " Resposta de Frequ\u00eancia: - AAC (8 a 320 Kbps);\n- AAC Protegido (da iTunes Store);\n- MP3 (8 a 320 Kbps)., Formatos compat\u00edveis: - AAC;\n- AAC Protegido;\n- HE-AAC;\n- MP3;\n- MP3 VBR;\n- Audible (formatos 2, 3, 4, Audible Enhanced Audio, AAX e AAX+);\n- Apple Lossless;\n- AIFF;\n- WAV., Outros recursos: Limite m\u00e1ximo de volume configur\u00e1vel pelo usu\u00e1rio.",
+            "title": "Reprodu\u00e7\u00e3o de \u00e1udio"
+        },
+        {
+            "description": " Compatibilidade: Com espelhamento de v\u00eddeo e sa\u00edda de v\u00eddeo de at\u00e9 1080p via Adaptador de Lightning para AV Digital e Adaptador de Lightning para VGA (vendidos separadamente)., Formatos de v\u00eddeo compat\u00edveis: - V\u00eddeo H.264 de at\u00e9 1080 pixels, 60 quadros por segundo, High Profile n\u00edvel 4.2 com \u00e1udio AAC-LC de at\u00e9 160 Kbps, 48kHz, som est\u00e9reo nos formatos de arquivo .m4v, .mp4 e .mov;\n\n- V\u00eddeo MPEG-4 de at\u00e9 2,5 Mbps, 640 x 480 pixels, 30 quadros por segundo, Simple Profile com \u00e1udio AAC-LC de at\u00e9 160 Kbps por canal, 48kHz, som est\u00e9reo nos formatos de arquivo .m4v, .mp4 e .mov;\n\n- Motion JPEG (M-JPEG) de at\u00e9 35 Mbps, 1280 x 720 pixels, 30 quadros por segundo, \u00e1udio in ulaw, \u00e1udio est\u00e9reo PCM no formato de arquivo .avi.",
+            "title": "TV e V\u00eddeo"
+        },
+        {
+            "description": " Tipos de documentos que podem ser visualizados: .jpg, .tiff, .gif (imagens); .doc e .docx (Microsoft Word); .htm e .html (p\u00e1ginas web); .key (Keynote); .numbers (Numbers); .pages (Pages); .pdf (Preview e Adobe Acrobat); .ppt e .pptx (Microsoft PowerPoint); .txt (texto); .rtf (rich text format); .vcf (informa\u00e7\u00f5es de contatos); .xls e .xlsx (Microsoft Excel); .zip; .ics.",
+            "title": "Formatos de anexo compat\u00edveis com o Mail"
+        },
+        {
+            "description": " Suporte a v\u00e1rios idiomas: Ingl\u00eas (Austr\u00e1lia, Canad\u00e1, Reino Unido, EUA), chin\u00eas (simplificado, tradicional, tradicional Hong Kong), franc\u00eas (Canad\u00e1, Fran\u00e7a), alem\u00e3o, italiano, japon\u00eas, coreano, espanhol (M\u00e9xico, Espanha), \u00e1rabe, catal\u00e3o, croata, checo, dinamarqu\u00eas, holand\u00eas, finland\u00eas, grego, hebraico, hindi, h\u00fangaro, indon\u00e9sio, malaio, noruegu\u00eas, polon\u00eas, portugu\u00eas (Brasil, Portugal), romeno, russo, eslovaco, sueco, tailand\u00eas, turco, ucraniano, vietnamita., Suporte de teclado: - QuickType: Ingl\u00eas (Austr\u00e1lia, Canad\u00e1, \u00cdndia, Reino Unido, EUA), chin\u00eas - simplificado (manuscrito, Pinyin, Stroke), chin\u00eas - tradicional (Cangjie, Handwriting, Pinyin, Stroke, Sucheng, Zhuyin), franc\u00eas (Canad\u00e1, Fran\u00e7a, Su\u00ed\u00e7a), alem\u00e3o (Alemanha, Su\u00ed\u00e7a), italiano, japon\u00eas (Kana, Romaji), coreano, espanhol, \u00e1rabe, bengali, b\u00falgaro, catal\u00e3o, cherokee, croata, checo, dinamarqu\u00eas, holand\u00eas, emoji, estoniano, filipino, finland\u00eas, flamengo, grego, havaiano, hebraico, hindi, h\u00fangaro, island\u00eas, indon\u00e9sio, let\u00e3o, lituano, maced\u00f4nio, malaio, marathi, noruegu\u00eas, polon\u00eas, portugu\u00eas (Brasil), romeno, russo, s\u00e9rvio (cir\u00edlico, latino), eslovaco, esloveno, sueco, t\u00e2mil, tailand\u00eas, turco, ucraniano, urdu, vietnamita;\n\n- QuickType com texto preditivo8: Ingl\u00eas (Austr\u00e1lia, Canad\u00e1, \u00cdndia, Reino Unido, EUA), chin\u00eas (simplificado, tradicional), franc\u00eas (Canad\u00e1, Fran\u00e7a, Su\u00ed\u00e7a), alem\u00e3o (Alemanha, Su\u00ed\u00e7a), italiano, japon\u00eas, espanhol, portugu\u00eas (Brasil), tailand\u00eas., Suporte de dicion\u00e1rio: Ingl\u00eas, chin\u00eas (simplificado), franc\u00eas, alem\u00e3o, italiano, japon\u00eas, coreano, espanhol, holand\u00eas, portugu\u00eas (Brasil), russo, tailand\u00eas, turco;\n\n- Idiomas do recurso Ditado: Ingl\u00eas (Austr\u00e1lia, Canad\u00e1, Reino Unido, EUA), espanhol, (M\u00e9xico, Espanha, EUA), franc\u00eas (Canad\u00e1, Fran\u00e7a, Su\u00ed\u00e7a), alem\u00e3o (Alemanha, Su\u00ed\u00e7a), italiano (It\u00e1lia, Su\u00ed\u00e7a), japon\u00eas, coreano, espanhol, mandarim (China Continental, Taiwan), canton\u00eas (Hong Kong), catal\u00e3o, croata, tcheco, dinamarqu\u00eas, holand\u00eas, finland\u00eas, grego, h\u00fangaro, indon\u00e9sio, malaio, noruegu\u00eas, polon\u00eas, portugu\u00eas (Brasil, Portugal), romeno, russo, eslovaco, sueco, turco, tailand\u00eas, ucraniano, vietnamita;\n\n- Suporte a dicion\u00e1rio bil\u00edngue: Chin\u00eas simplificado, japon\u00eas, coreano, espanhol;\n\n- Verifica\u00e7\u00e3o ortogr\u00e1fica: Ingl\u00eas (Austr\u00e1lia, Canad\u00e1, Reino Unido, EUA), franc\u00eas, alem\u00e3o, italiano, espanhol, dinamarqu\u00eas, holand\u00eas, polon\u00eas, portugu\u00eas (Brasil, Portugal), russo, sueco, turco., Idiomas do Siri: Ingl\u00eas (Austr\u00e1lia, Canad\u00e1, Reino Unido, EUA), espanhol (M\u00e9xico, Espanha, EUA), franc\u00eas (Canad\u00e1, Fran\u00e7a, Su\u00ed\u00e7a), alem\u00e3o (Alemanha, Su\u00ed\u00e7a), italiano (It\u00e1lia, Su\u00ed\u00e7a), japon\u00eas, coreano, mandarim (China Continental, Taiwan), canton\u00eas (Hong Kong).",
+            "title": "Idioma"
+        },
+        {
+            "description": " Temperatura operacional: 0 a 35 \u00b0C (32 a 95 \u00b0F)., Temperatura n\u00e3o-operacional: -20 a 45 \u00b0C (-4 a 113 \u00b0F)., Umidade relativa: 5% a 95%, sem condensa\u00e7\u00e3o.\n\n- Altitude operacional: testada at\u00e9 3.000 m (10.000 p\u00e9s).",
+            "title": "Requisitos ambientais"
+        },
+        {
+            "description": " MAC: OS X v10.6.8 ou posterior., Windows: Windows 8, Windows 7, Windows Vista, Windows XP Home ou Professional com Service Pack 3 ou posterior., Outros: - ID Apple (necess\u00e1rio para alguns recursos);\n- Acesso \u00e0 Internet7;\n- iTunes 11.4 ou posterior (baixe de gra\u00e7a em www.itunes.com/br/download).",
+            "title": "Requisitos do sistema"
+        },
+        {
+            "description": " Peso do produto: 129 gramas.",
+            "title": "Peso aproximado"
+        },
+        {
+            "description": " Largura: 6,7 cm., Altura: 13,81 cm., Profundidade: 0,69 cm.",
+            "title": "Dimens\u00f5es do produto"
+        },
+        {
+            "description": "  01 ano (3 meses de garantia legal e mais 9 meses de garantia especial concedida pelo fabricante).",
+            "title": "Prazo"
+        },
+        {
+            "description": " (Modelo A1549, A1586): M3, T4.",
+            "title": "Itens especiais 1"
+        },
+        {
+            "description": " - 01 iPhone com iOS 8;\n- 01 Apple EarPods com Controle Remoto e Microfone;\n- 01 Cabo de Lightning para USB;\n- 01 Carregador USB;\n- 01 Kit Documenta\u00e7\u00e3o.",
+            "title": "Itens inclusos"
+        }
+    ]
+}
