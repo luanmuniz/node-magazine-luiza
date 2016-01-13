@@ -4,10 +4,15 @@ let got = require('got');
 let fs = require('fs');
 let path = require('path');
 let xmlMockPath = ['.', 'test', 'mock', 'xml'];
+let htmlMockPath = ['.', 'test', 'mock', 'html'];
 let xmls = {
 	xmlCatalogo: path.resolve.apply(path, xmlMockPath.concat('catalog.xml')),
 	xmlCor: path.resolve.apply(path, xmlMockPath.concat('color.xml')),
-	xmlCategorias: path.resolve.apply(path, xmlMockPath.concat('category.xml'))
+	xmlCategorias: path.resolve.apply(path, xmlMockPath.concat('category.xml')),
+	FichaTecnicaCorp: path.resolve.apply(
+		path,
+		htmlMockPath.concat('technical-spec.html')
+	)
 };
 
 got.get = (url) => {
