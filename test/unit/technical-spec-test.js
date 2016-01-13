@@ -22,12 +22,12 @@ describe('# MAGAZINE LUIZA API - CATALOG - TECHNICAL SPEC', function() {
 		;
 	});
 
-	it('Should return technical information passing SKU', function() {
+	it('Should return technical information passing product ID and model',
+	function() {
 		const productID = '0842805';
 		const productModel = '00';
-		const sku = productID + productModel;
 
-		return magazineLuiza.catalog.getTechnicalSpec(sku)
+		return magazineLuiza.catalog.getTechnicalSpec(productID, productModel)
 			.then(data => {
 				return expect(data).to.be.deep.equal(technicalSpecResult);
 			})
