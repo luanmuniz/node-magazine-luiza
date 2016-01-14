@@ -28,6 +28,12 @@ describe('# MAGAZINE LUIZA API - CORE', function() {
 		);
 	});
 
+	it('Should return Unknown Error if don\'t pass arguments to error helper',
+	function() {
+		return core.errorHandler('core', 'UNKNOWN_ERROR').catch(err => {
+			return expect(err).to.be.equal('Unknown Error');
+		});
+	});
 
 	it('Should return error when file type is different from XML',
 	function() {
