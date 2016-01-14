@@ -15,10 +15,12 @@ describe('# MAGAZINE LUIZA API - CATALOG - TECHNICAL SPEC', function() {
 		expect(magazineLuiza.catalog).has.property('getTechnicalSpec');
 	});
 
-	it('Should return a Promise error if product code does not to pass',
+	it('Should return a Promise error if product code or model does not to pass',
 	function() {
-		magazineLuiza.catalog.getTechnicalSpec()
-			.catch(err => expect(err).to.be.equal('You must pass SKU'))
+		return magazineLuiza.catalog.getTechnicalSpec()
+			.catch(err => {
+				expect(err).to.be.equal('You must pass product ID and Model');
+			})
 		;
 	});
 
