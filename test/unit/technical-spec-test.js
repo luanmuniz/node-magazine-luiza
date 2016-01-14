@@ -4,6 +4,10 @@ require('../mock/got-mock');
 const expect = require('chai').expect;
 const MagazineLuizaAPI = require('../../index');
 const technicalSpecResult = require('../mock/json/technical-spec-result.json');
+const technicalSpecTwoProducts = require(
+	'../mock/json/technical-spec-two-products-result.json'
+);
+
 
 describe('# MAGAZINE LUIZA API - CATALOG - TECHNICAL SPEC', function() {
 	let magazineLuiza;
@@ -34,5 +38,22 @@ describe('# MAGAZINE LUIZA API - CATALOG - TECHNICAL SPEC', function() {
 				return expect(data).to.be.deep.equal(technicalSpecResult);
 			})
 		;
+	});
+
+	it('Should return technical information when pass more than one product',
+	function() {
+		let catalog = magazineLuiza.catalog;
+		let products = [
+			{ id: '000000', model: '00' },
+			{ id: '111111', model: '11' }
+		];
+
+		let allProducts = products.map(product => {
+			return catalog.getTechnicalSpec(product.id, product.model);
+		});
+
+		return Promise.all(allProducts).then(techSpecs => {
+			return expect(techSpecs).to.be.deep.equal(technicalSpecTwoProducts);
+		});
 	});
 });
