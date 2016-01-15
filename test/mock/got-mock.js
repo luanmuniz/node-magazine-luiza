@@ -12,7 +12,9 @@ let xmls = {
 	FichaTecnicaCorp: path.resolve.apply(
 		path,
 		htmlMockPath.concat('technical-spec.html')
-	)
+	),
+
+	ConsultaProduto: path.resolve.apply(path, xmlMockPath.concat('stock.xml'))
 };
 
 got.get = (url) => {
@@ -21,6 +23,19 @@ got.get = (url) => {
 		return Promise.reject(new Error('Wrong URL'));
 	}
 	let xml = fs.readFileSync(xmls[chosenXml], 'utf8');
+	return Promise.resolve(xml);
+};
+
+got.post = (url, options) => {
+	let chosenXml = options.headers.SOAPAction.split(/org\/(\w+)/gi)[1];
+
+	if(!chosenXml) {
+		return Promise.reject(new Error('Error post. Pass a SOAP Action'));
+	}
+
+	let xml = {
+		body: fs.readFileSync(xmls[chosenXml], 'utf8')
+	};
 	return Promise.resolve(xml);
 };
 
