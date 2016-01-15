@@ -21,7 +21,6 @@ describe('# MAGAZINE LUIZA API - CATALOG - STOCK', function() {
 
 		return magazineLuiza.catalog.getStock(productID, productModel)
 			.then(stock => {
-				console.log(JSON.stringify(stock));
 				expect(stock).to.be.deep.equal(stockResult);
 			})
 		;
