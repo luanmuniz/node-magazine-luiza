@@ -3,6 +3,7 @@
 require('../mock/got-mock');
 const expect = require('chai').expect;
 const MagazineLuizaAPI = require('../../index');
+const technicalSpecHelper = require('../../lib/catalog/technical-spec-helper');
 const technicalSpecResult = require('../mock/json/technical-spec-result.json');
 const technicalSpecTwoProducts = require(
 	'../mock/json/technical-spec-two-products-result.json'
@@ -23,19 +24,41 @@ describe('# MAGAZINE LUIZA API - CATALOG - TECHNICAL SPEC', function() {
 	function() {
 		return magazineLuiza.catalog.getTechnicalSpec()
 			.catch(err => {
-				expect(err).to.be.equal('You must pass product ID and Model');
+				expect(err.message).to.be.equal(
+					'You must pass product ID and Model'
+				);
 			})
 		;
 	});
 
 	it('Should return technical information passing product ID and model',
 	function() {
-		const productID = '0842805';
+		const productID = '0000000';
 		const productModel = '00';
 
 		return magazineLuiza.catalog.getTechnicalSpec(productID, productModel)
 			.then(data => {
 				return expect(data).to.be.deep.equal(technicalSpecResult);
+			})
+			.catch(err => {
+				return expect(err.message).to.be.equal(
+					'No technical specifications for this product'
+				)
+			})
+		;
+	});
+
+	it('Should return an error if there isn\'t technical specifications',
+	function() {
+		const productID = '0000000';
+		const productModel = '00';
+		const html = { body: '<div></div>' };
+
+		technicalSpecHelper.requestSuccess(productID, productModel)(html)
+			.catch(err => {
+				return expect(err.message).to.be.equal(
+					'No technical specifications for this product'
+				)
 			})
 		;
 	});
@@ -52,8 +75,17 @@ describe('# MAGAZINE LUIZA API - CATALOG - TECHNICAL SPEC', function() {
 			return catalog.getTechnicalSpec(product.id, product.model);
 		});
 
-		return Promise.all(allProducts).then(techSpecs => {
-			return expect(techSpecs).to.be.deep.equal(technicalSpecTwoProducts);
-		});
+		return Promise.all(allProducts)
+			.then(techSpecs => {
+				return expect(techSpecs).to.be.deep.equal(
+					technicalSpecTwoProducts
+				);
+			})
+			.catch(err => {
+				return expect(err.message).to.be.equal(
+					'No technical specifications for this product'
+				)
+			})
+		;
 	});
 });
