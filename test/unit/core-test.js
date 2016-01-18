@@ -19,7 +19,7 @@ describe('# MAGAZINE LUIZA API - CORE', function() {
 	it('Should return an error if makeRequest try to get inexistent url',
 	function() {
 		return core.makeRequest('get', 'wrongPath')
-			.catch(err => expect(err).to.be.equal('Wrong URL'))
+			.catch(err => expect(err.message).to.be.equal('Wrong URL'))
 		;
 	});
 
@@ -33,7 +33,7 @@ describe('# MAGAZINE LUIZA API - CORE', function() {
 	it('Should return Unknown Error if don\'t pass arguments to error helper',
 	function() {
 		return core.errorHandler('core', 'UNKNOWN_ERROR').catch(err => {
-			return expect(err).to.be.equal('Unknown Error');
+			return expect(err.message).to.be.equal('Unknown Error');
 		});
 	});
 
