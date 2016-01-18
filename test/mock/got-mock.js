@@ -36,7 +36,7 @@ got.post = (url, options) => {
 	let xml = {
 		body: fs.readFileSync(xmls[chosenXml], 'utf8')
 	};
-	return Promise.resolve({ body: xml });
+	return Promise.resolve(xml);
 };
 
 module.exports = got;
