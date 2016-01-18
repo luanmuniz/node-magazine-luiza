@@ -7,7 +7,9 @@ const MagazineLuizaAPI = require('../../index');
 
 describe('# MAGAZINE LUIZA API - CORE', function() {
 	it('Should core API has a prodUrl property', function() {
-		expect(core.prodUrl).to.be.equal('https://corporativo.magazineluiza.com.br');
+		expect(core.prodUrl).to.be.equal(
+			'https://corporativo.magazineluiza.com.br'
+		);
 	});
 
 	it('Should coreAPI has a devUrl property', function() {
@@ -17,7 +19,7 @@ describe('# MAGAZINE LUIZA API - CORE', function() {
 	it('Should return an error if makeRequest try to get inexistent url',
 	function() {
 		return core.makeRequest('get', 'wrongPath')
-			.catch(err => expect(err).to.be.equal('Request Error'))
+			.catch(err => expect(err).to.be.equal('Wrong URL'))
 		;
 	});
 

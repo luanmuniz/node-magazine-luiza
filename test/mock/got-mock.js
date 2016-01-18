@@ -23,7 +23,7 @@ got.get = (url) => {
 		return Promise.reject(new Error('Wrong URL'));
 	}
 	let xml = fs.readFileSync(xmls[chosenXml], 'utf8');
-	return Promise.resolve(xml);
+	return Promise.resolve({ body: xml });
 };
 
 got.post = (url, options) => {
@@ -36,7 +36,7 @@ got.post = (url, options) => {
 	let xml = {
 		body: fs.readFileSync(xmls[chosenXml], 'utf8')
 	};
-	return Promise.resolve(xml);
+	return Promise.resolve({ body: xml });
 };
 
 module.exports = got;
