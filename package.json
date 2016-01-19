@@ -4,7 +4,7 @@
   "description": "A library for Magazine Luiza API",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test:unit && gulp test:api",
+    "test": "gulp test:api && gulp test:unit",
     "update": "gulp update",
     "fix": "gulp fix",
     "lint": "gulp lint"
