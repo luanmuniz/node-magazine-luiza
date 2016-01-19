@@ -5,7 +5,5 @@ machine:
     version: 4.2.2
 
 test:
-  override:
-    - PARTNER_ID=$PARTNER_ID npm test
   post:
     - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
