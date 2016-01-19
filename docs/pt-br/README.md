@@ -6,9 +6,9 @@ Este modulo é uma abstração da API do Magazine Luiza para clientes B2B. Para 
 
 ## Esclarecimentos
 
-Este modulo não é oficial, isso significa que não foi criado pela equipe do Magazine Luiza e sim por um parceiro terceiro. Caso você precise de algum suporte ou orientação para usar este módulo, por favor, crie [uma issue](issues/new) neste repositório e **NÃO** entre em contato com o suporte técnico do Magazine Luiza.
+Este modulo não é oficial, isso significa que não foi criado pela equipe do Magazine Luiza e sim por um parceiro terceiro. Caso você precise de algum suporte ou orientação para usar este módulo, por favor, crie [uma issue](https://github.com/ZimpFidelidade/node-magazine-luiza/issues/new) neste repositório e **NÃO** entre em contato com o suporte técnico do Magazine Luiza.
 
-Este modulo não contém nenhuma informação privilegiada, sendo somente uma abstração da API Publica para os parceiros B2B. Se você trabalha dentro do Magazine Luiza e ficou preocupado com o conteúdo deste projeto, desde já esclareço que não existe nenhum dado de natureza privada e ou interna. Caso você precise de algum esclarecimento de qualquer natureza, você pode entrar em contato criando uma issue [clicando aqui](issues/new) ou através do email <suporte@zimp.me>
+Este modulo não contém nenhuma informação privilegiada, sendo somente uma abstração da API Publica para os parceiros B2B. Se você trabalha dentro do Magazine Luiza e ficou preocupado com o conteúdo deste projeto, desde já esclareço que não existe nenhum dado de natureza privada e ou interna. Caso você precise de algum esclarecimento de qualquer natureza, você pode entrar em contato criando uma issue [clicando aqui](https://github.com/ZimpFidelidade/node-magazine-luiza/issues/new) ou através do email <suporte@zimp.me>
 
 ## Construtor
 
