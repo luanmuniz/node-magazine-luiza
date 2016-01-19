@@ -12,7 +12,7 @@ describe('# [API] MAGAZINE LUIZA - CATALOG - TECHNICAL SPEC', function() {
 		const catalog = magazineLuiza.catalog;
 		return catalog.getProducts()
 			.then(data => catalog.getTechnicalSpec(data[0].id, data[0].model))
-			.then(techSpec => expect(techSpec).to.be.an('object'));
+			.then(techSpec => expect(techSpec).to.be.an('object'))
 		;
 	});
 });

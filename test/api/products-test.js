@@ -10,9 +10,7 @@ describe('# [API] MAGAZINE LUIZA - CATALOG - PRODUCTS', function() {
 
 	it('Should return all products', function() {
 		return magazineLuiza.catalog.getProducts()
-			.then(data => {
-				return expect(data).to.be.an('array');
-			})
+			.then(data => expect(data).to.be.an('array'))
 		;
 	});
 });

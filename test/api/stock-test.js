@@ -12,7 +12,7 @@ describe('# [API] MAGAZINE LUIZA - CATALOG - STOCK', function() {
 		const catalog = magazineLuiza.catalog;
 		return catalog.getProducts()
 			.then(data => catalog.getStock(data[0].id, data[0].model))
-			.then(stock => expect(stock).to.be.an('object'));
+			.then(stock => expect(stock).to.be.an('object'))
 		;
 	});
 });
