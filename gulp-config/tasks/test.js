@@ -6,7 +6,8 @@ let mocha = require('gulp-mocha');
 let coverage = require('../coverage');
 let paths = require('../paths');
 
-let allFiles = paths.js.concat(paths.testFiles);
+let allFilesAndTestsUnit = paths.js.concat(paths.testFiles.unit);
+let allFilesAndTestsAPI = paths.js.concat(paths.testFiles.api);
 
 gulp.task('pre-test', ['lint'], done => {
 	process.env.NODE_ENV = 'test';
@@ -16,8 +17,16 @@ gulp.task('pre-test', ['lint'], done => {
 		.pipe(istanbul.hookRequire());
 });
 
-gulp.task('test', [ 'pre-test' ], done => {
-	return gulp.src(allFiles)
+gulp.task('test:unit', [ 'pre-test' ], done => {
+	return test(allFilesAndTestsUnit, coverage.unit, done);
+});
+
+gulp.task('test:api', [ 'pre-test' ], done => {
+	return test(allFilesAndTestsAPI, coverage.api, done);
+});
+
+function test(files, coverage, done) {
+	return gulp.src(files)
 		.pipe(mocha())
 		.on('error', handleError(done))
 		.pipe(istanbul.writeReports())
@@ -30,7 +39,8 @@ gulp.task('test', [ 'pre-test' ], done => {
 			process.exit(1);
 		})
 		.on('end', handleError(done));
-});
+
+}
 
 function handleError(done) {
 	return (err) => {

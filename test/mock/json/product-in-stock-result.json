@@ -1,10 +1,10 @@
 {
     "available": false,
-    "message": "Opera\u00e7\u00e3o realizada com sucesso",
+    "message": "Produto e/ou Modelo Inexistente",
     "needsMount": false,
     "partnerId": "0000",
-    "productId": "1352138",
+    "productId": "0000000",
     "productModel": "00",
-    "productQuantity": "2",
-    "status": "0"
+    "productQuantity": "1",
+    "status": "3"
 }

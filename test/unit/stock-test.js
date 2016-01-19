@@ -16,7 +16,7 @@ describe('# MAGAZINE LUIZA API - CATALOG - STOCK', function() {
 	});
 
 	it('Should getStock() return an object with stock information', function() {
-		const productID = '1352138';
+		const productID = '0000000';
 		const productModel = '00';
 
 		return magazineLuiza.catalog.getStock(productID, productModel)
