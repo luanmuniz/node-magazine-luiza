@@ -1,10 +1,14 @@
 # Magazine Luiza Node
 
-> A library for Magazine Luiza API
+> A nonofficial library for Magazine Luiza B2B Public API using Promises
 
 [![Circle CI][circle-image]][circle-url] [![Dependency Status][depstat-image]][depstat-url] [![Coveralls][coveralls-image]][coveralls-url] [![NPM Version][node-image]][node-url]
 
 [![Node Build][nodei-image]][nodei-url]
+
+## Você trabalha no Magazine Luiza?
+
+Não de preocupe, este repositório não contem nenhuma informação sensível sendo apenas um empacotamento da API publica para clientes B2B para ser usado na plataforma NodeJS e não contém nenhuma chave de acesso, rotas privadas ou algo parecido. Caso você queira entrar em contato sobre este repositório você pode postar uma issue [clicando aqui](issues/new) ou através do email <suporte@zimp.me>
 
 ## Documentation
 
