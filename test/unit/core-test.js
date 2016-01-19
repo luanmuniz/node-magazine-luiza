@@ -37,6 +37,12 @@ describe('# MAGAZINE LUIZA API - CORE', function() {
 		});
 	});
 
+	it('Should return an error', function() {
+		return core.errorHandler('core', 'UNKNOWN_ERROR', new Error('Error'))
+			.catch(err => expect(err).to.be.an.Error)
+		;
+	});
+
 	it('Should return error when file type is different from XML',
 	function() {
 		return core.requestSuccess({})
@@ -53,6 +59,12 @@ describe('# MAGAZINE LUIZA API - CORE', function() {
 	it('Should use development URL when pass dev environment variable',
 	function() {
 		core.init('0000', 'development');
-		expect(core.mainUrl).to.be.equal('http://b2b-xml.sandbox.luizalabs.com');
+		expect(core.mainUrl).to.be.equal(
+			'http://b2b-xml.sandbox.luizalabs.com'
+		);
+	});
+
+	it('Should return same character when can\'t decode this one', function() {
+		expect(core.toUtf8('a%AFc')).to.be.equal('a%AFc');
 	});
 });
