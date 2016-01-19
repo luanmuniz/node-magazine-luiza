@@ -4,7 +4,8 @@ module.exports = {
 		'./app.js',
 		'./lib/**/*.js'
 	],
-	testFiles: [
-		'./test/{api,unit}/**/*.js'
-	]
+	testFiles: {
+		unit: './test/unit/**/*.js',
+		api: './test/api/**/*.js'
+	}
 };
