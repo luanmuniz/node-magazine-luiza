@@ -17,7 +17,7 @@ describe('# MAGAZINE LUIZA API - CATALOG - TECHNICAL SPEC', function() {
 	});
 
 	it('Should catalog has a method getTechnicalSpec', function() {
-		expect(magazineLuiza.catalog).has.property('getTechnicalSpec');
+		expect(magazineLuiza.catalog).to.have.a.property('getTechnicalSpec');
 	});
 
 	it('Should return a Promise error if product code or model does not to pass',

@@ -12,7 +12,7 @@ describe('# MAGAZINE LUIZA API - CATALOG - COLORS', function() {
 	});
 
 	it('Should catalog has a method getColors()', function() {
-		expect(magazineLuiza.catalog).has.property('getColors');
+		expect(magazineLuiza.catalog).to.have.a.property('getColors');
 	});
 
 	it('Should getColors() return an array of objects with colors', function() {

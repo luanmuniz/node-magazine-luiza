@@ -12,7 +12,7 @@ describe('# MAGAZINE LUIZA API - CATALOG - CATEGORIES', function() {
 	});
 
 	it('Should catalog has a method getCategories()', function() {
-		expect(magazineLuiza.catalog).has.property('getCategories');
+		expect(magazineLuiza.catalog).to.have.a.property('getCategories');
 	});
 
 	it('Should getCategories() return an array of objects with categories',
