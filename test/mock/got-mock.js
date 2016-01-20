@@ -14,7 +14,11 @@ let xmls = {
 		htmlMockPath.concat('technical-spec.html')
 	),
 
-	ConsultaProduto: path.resolve.apply(path, xmlMockPath.concat('stock.xml'))
+	ConsultaProduto: path.resolve.apply(path, xmlMockPath.concat('stock.xml')),
+	ConsultaPrecoProduto: path.resolve.apply(
+		path,
+		xmlMockPath.concat('price.xml')
+	)
 };
 
 got.get = (url) => {

@@ -12,7 +12,7 @@ describe('# MAGAZINE LUIZA API - CATALOG - STOCK', function() {
 	});
 
 	it('Should catalog has a method getStock()', function() {
-		expect(magazineLuiza.catalog).has.property('getStock');
+		expect(magazineLuiza.catalog).to.have.a.property('getStock');
 	});
 
 	it('Should getStock() return an object with stock information', function() {
