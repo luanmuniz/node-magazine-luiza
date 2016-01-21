@@ -15,6 +15,16 @@ describe('# MAGAZINE LUIZA API - CATALOG - STOCK', function() {
 		expect(magazineLuiza.catalog).to.have.a.property('getStock');
 	});
 
+	it('Should return an error if don\'t pass product id or model', function(){
+		return magazineLuiza.catalog.getStock()
+			.catch(err => {
+				return expect(err.message).to.be.equal(
+					'You must pass product ID and Model'
+				);
+			})
+		;
+	});
+
 	it('Should getStock() return an object with stock information', function() {
 		const productID = '0000000';
 		const productModel = '00';
