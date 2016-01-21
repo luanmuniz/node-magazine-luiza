@@ -1,0 +1,28 @@
+{
+    "cep": "17120000",
+    "cpf": "91185043373",
+    "deliveryDate": "",
+    "deliveryTime": "0",
+    "message": "Existe(m) produto(s) do carrinho que est\u00e1 (\u00e3o) sem estoque",
+    "partnerId": "0000",
+    "products": [
+        {
+            "available": false,
+            "id": "2083101",
+            "model": "00",
+            "quantity": "1",
+            "stock": "1"
+        },
+        {
+            "available": false,
+            "id": "0235175",
+            "model": "00",
+            "quantity": "1",
+            "stock": "1"
+        }
+    ],
+    "sessionKey": "1861737",
+    "shippingValueBrl": "0",
+    "shippingValueCurrency": "0",
+    "status": "1"
+}

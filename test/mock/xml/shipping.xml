@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <s:Header xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"/>
+  <soap:Body>
+    <CalculaFreteResponse xmlns="http://tempuri.org/">
+      <CalculaFreteResult>
+        <xs:schema xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="XML">
+          <xs:element name="XML" msdata:IsDataSet="true" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="MagazineLuiza">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="Carrinho" minOccurs="0" maxOccurs="unbounded">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Chave_sessao" type="xs:string" minOccurs="0"/>
+                            <xs:element name="CPF" type="xs:string" minOccurs="0"/>
+                            <xs:element name="IdResgateCampanha" type="xs:string" minOccurs="0"/>
+                            <xs:element name="CEP" type="xs:string" minOccurs="0"/>
+                            <xs:element name="Valor_Frete" type="xs:string" minOccurs="0"/>
+                            <xs:element name="Valor_Frete_Moeda" type="xs:string" minOccurs="0"/>
+                            <xs:element name="Prazo" type="xs:string" minOccurs="0"/>
+                            <xs:element name="Data_Entrega" type="xs:string" minOccurs="0"/>
+                            <xs:element name="idStatus" type="xs:string" minOccurs="0"/>
+                            <xs:element name="Mensagem" type="xs:string" minOccurs="0"/>
+                            <xs:element name="ListaProdutos" minOccurs="0" maxOccurs="unbounded">
+                              <xs:complexType>
+                                <xs:sequence>
+                                  <xs:element name="Produto" minOccurs="0" maxOccurs="unbounded">
+                                    <xs:complexType>
+                                      <xs:sequence>
+                                        <xs:element name="Codigo" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="Modelo" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="Quantidade" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="Liberado" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="Estoque" type="xs:string" minOccurs="0"/>
+                                      </xs:sequence>
+                                    </xs:complexType>
+                                  </xs:element>
+                                </xs:sequence>
+                              </xs:complexType>
+                            </xs:element>
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+              </xs:choice>
+            </xs:complexType>
+          </xs:element>
+        </xs:schema>
+        <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+          <XML xmlns="">
+            <MagazineLuiza diffgr:id="MagazineLuiza1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenMagazineLuiza_Id="0">
+              <Carrinho diffgr:id="Carrinho1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenCarrinho_Id="0" msdata:hiddenMagazineLuiza_Id="0"><Chave_sessao>1861737</Chave_sessao><CPF>91185043373</CPF><IdResgateCampanha>0000</IdResgateCampanha><CEP>17120000</CEP>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																													                                    <Valor_Frete>0</Valor_Frete>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						                                    <Valor_Frete_Moeda>0</Valor_Frete_Moeda>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																															                                    <Prazo>0</Prazo>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																								                                    <Data_Entrega/>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																	                                    <idStatus>1</idStatus>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																										                                    <Mensagem>Existe(m) produto(s) do carrinho que est&#xE1; (&#xE3;o) sem estoque</Mensagem>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																			                                    <ListaProdutos diffgr:id="ListaProdutos1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenListaProdutos_Id="0" msdata:hiddenCarrinho_Id="0"><Produto diffgr:id="Produto1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenListaProdutos_Id="0"><Codigo>2083101</Codigo><Modelo>00</Modelo><Quantidade>1</Quantidade><Liberado>0</Liberado><Estoque>1</Estoque></Produto><Produto diffgr:id="Produto2" msdata:rowOrder="1" diffgr:hasChanges="inserted" msdata:hiddenListaProdutos_Id="0"><Codigo>0235175</Codigo><Modelo>00</Modelo><Quantidade>1</Quantidade><Liberado>0</Liberado><Estoque>1</Estoque></Produto></ListaProdutos>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																														                                </Carrinho>
+            </MagazineLuiza>
+          </XML>
+        </diffgr:diffgram>
+      </CalculaFreteResult>
+    </CalculaFreteResponse>
+  </soap:Body>
+</soap:Envelope>
