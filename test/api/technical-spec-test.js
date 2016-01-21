@@ -3,10 +3,10 @@
 const expect = require('chai').expect;
 const MagazineLuizaAPI = require('../../index');
 const PARTNER_ID = process.env.PARTNER_ID;
+const magazineLuiza = new MagazineLuizaAPI(PARTNER_ID);
 
 describe('# [API] MAGAZINE LUIZA - CATALOG - TECHNICAL SPEC', function() {
 	this.timeout(90000);
-	const magazineLuiza = new MagazineLuizaAPI(PARTNER_ID);
 
 	it('Should return technical spec of the first product', function() {
 		const catalog = magazineLuiza.catalog;

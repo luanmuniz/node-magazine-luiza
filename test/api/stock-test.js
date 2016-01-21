@@ -3,10 +3,10 @@
 const expect = require('chai').expect;
 const MagazineLuizaAPI = require('../../index');
 const PARTNER_ID = process.env.PARTNER_ID;
+const magazineLuiza = new MagazineLuizaAPI(PARTNER_ID, 'development');
 
 describe('# [API] MAGAZINE LUIZA - CATALOG - STOCK', function() {
 	this.timeout(90000);
-	const magazineLuiza = new MagazineLuizaAPI(PARTNER_ID);
 
 	it('Should return true if there is a product in stock', function() {
 		const catalog = magazineLuiza.catalog;
