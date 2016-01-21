@@ -4,13 +4,9 @@ require('../mock/got-mock');
 const expect = require('chai').expect;
 const MagazineLuizaAPI = require('../../index');
 const colorsResult = require('../mock/json/colors-result.json');
+const magazineLuiza = new MagazineLuizaAPI('0000');
 
 describe('# MAGAZINE LUIZA API - CATALOG - COLORS', function() {
-	let magazineLuiza;
-	before(function() {
-		magazineLuiza = new MagazineLuizaAPI('0000');
-	});
-
 	it('Should catalog has a method getColors()', function() {
 		expect(magazineLuiza.catalog).to.have.a.property('getColors');
 	});

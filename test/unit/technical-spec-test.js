@@ -8,14 +8,9 @@ const technicalSpecResult = require('../mock/json/technical-spec-result.json');
 const technicalSpecTwoProducts = require(
 	'../mock/json/technical-spec-two-products-result.json'
 );
-
+const magazineLuiza = new MagazineLuizaAPI('0000');
 
 describe('# MAGAZINE LUIZA API - CATALOG - TECHNICAL SPEC', function() {
-	let magazineLuiza;
-	before(function() {
-		magazineLuiza = new MagazineLuizaAPI('0000');
-	});
-
 	it('Should catalog has a method getTechnicalSpec', function() {
 		expect(magazineLuiza.catalog).to.have.a.property('getTechnicalSpec');
 	});
