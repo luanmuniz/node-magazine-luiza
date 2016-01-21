@@ -6,7 +6,7 @@ const MagazineLuizaAPI = require('../../index');
 const magazineLuiza = new MagazineLuizaAPI('0000');
 const shippingResult = require('../mock/json/shipping-result.json');
 
-describe('# MAGAZINE LUIZA API - ORDER - CART', function() {
+describe('# MAGAZINE LUIZA API - ORDER - CALCULATE SHIPPING', function() {
 	this.timeout(60000);
 
 	it('Should order has ownProperty calculateShipping()', function() {
