@@ -3,7 +3,7 @@
 const expect = require('chai').expect;
 const MagazineLuizaAPI = require('../../index');
 const PARTNER_ID = process.env.PARTNER_ID;
-const magazineLuiza = new MagazineLuizaAPI(PARTNER_ID);
+const magazineLuiza = new MagazineLuizaAPI(PARTNER_ID, 'development');
 
 describe('# [API] MAGAZINE LUIZA - ORDER - CEP', function() {
 	it('Should check if CEP is available to order', function() {
