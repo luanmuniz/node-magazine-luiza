@@ -18,7 +18,8 @@ let xmls = {
 	ConsultaPrecoProduto: path.resolve.apply(
 		path,
 		xmlMockPath.concat('price.xml')
-	)
+	),
+	ConsultaCEP: path.resolve.apply(path, xmlMockPath.concat('cep.xml'))
 };
 
 got.get = (url) => {
