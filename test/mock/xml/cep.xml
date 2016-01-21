@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <s:Header xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"/>
+  <soap:Body>
+    <ConsultaCEPResponse xmlns="http://tempuri.org/">
+      <ConsultaCEPResult>
+        <xs:schema xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="XML">
+          <xs:element name="XML" msdata:IsDataSet="true" msdata:Locale="en-US">
+            <xs:complexType>
+              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="MagazineLuiza">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="ConsultaCEP" minOccurs="0" maxOccurs="unbounded">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="CEP" type="xs:string" minOccurs="0"/>
+                            <xs:element name="IdResgateCampanha" type="xs:string" minOccurs="0"/>
+                            <xs:element name="idStatus" type="xs:string" minOccurs="0"/>
+                            <xs:element name="Mensagem" type="xs:string" minOccurs="0"/>
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+              </xs:choice>
+            </xs:complexType>
+          </xs:element>
+        </xs:schema>
+        <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+          <XML xmlns="">
+            <MagazineLuiza diffgr:id="MagazineLuiza1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenMagazineLuiza_Id="0">
+              <ConsultaCEP diffgr:id="ConsultaCEP1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenMagazineLuiza_Id="0">
+                <CEP>04328030</CEP>
+                <IdResgateCampanha>0000</IdResgateCampanha>
+                <idStatus>0</idStatus>
+                <Mensagem>Cep encontrado na base de dados.</Mensagem>
+              </ConsultaCEP>
+            </MagazineLuiza>
+          </XML>
+        </diffgr:diffgram>
+      </ConsultaCEPResult>
+    </ConsultaCEPResponse>
+  </soap:Body>
+</soap:Envelope>
