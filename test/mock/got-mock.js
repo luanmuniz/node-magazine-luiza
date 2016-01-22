@@ -19,7 +19,8 @@ let xmls = {
 		path,
 		xmlMockPath.concat('price.xml')
 	),
-	ConsultaCEP: path.resolve.apply(path, xmlMockPath.concat('cep.xml'))
+	ConsultaCEP: path.resolve.apply(path, xmlMockPath.concat('cep.xml')),
+	CalculaFrete: path.resolve.apply(path, xmlMockPath.concat('shipping.xml'))
 };
 
 got.get = (url) => {

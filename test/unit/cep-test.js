@@ -1,5 +1,6 @@
 'use strict';
 
+require('../mock/got-mock');
 const expect = require('chai').expect;
 const MagazineLuizaAPI = require('../../index');
 const checkCepResult = require('../mock/json/check-cep-result.json');
