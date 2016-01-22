@@ -28,3 +28,4 @@ backup/
 cache/
 .idea/
 *.swp
+test/mock/json/products.json
