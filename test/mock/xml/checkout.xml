@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <s:Header xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"/>
+  <soap:Body>
+    <FinalizaPedidoResponse xmlns="http://tempuri.org/"><FinalizaPedidoResult><xs:schema xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="XML"><xs:element name="XML" msdata:IsDataSet="true" msdata:Locale="en-US"><xs:complexType><xs:choice minOccurs="0" maxOccurs="unbounded"><xs:element name="MagazineLuiza"><xs:complexType><xs:sequence><xs:element name="Pedidos" minOccurs="0" maxOccurs="unbounded"><xs:complexType><xs:sequence><xs:element name="Chave_sessao" type="xs:string" minOccurs="0"/><xs:element name="CPF" type="xs:string" minOccurs="0"/><xs:element name="IdResgateCampanha" type="xs:string" minOccurs="0"/><xs:element name="Pedido" type="xs:string" minOccurs="0"/><xs:element name="Quantidade_itens" type="xs:string" minOccurs="0"/>
+<xs:element name="Valor_Reais" type="xs:string" minOccurs="0"/>
+<xs:element name="Valor_Moeda" type="xs:string" minOccurs="0"/>
+<xs:element name="CEP" type="xs:string" minOccurs="0"/>
+<xs:element name="Endereco" type="xs:string" minOccurs="0"/>
+<xs:element name="Numero" type="xs:string" minOccurs="0"/>
+<xs:element name="Complemento" type="xs:string" minOccurs="0"/>
+<xs:element name="Bairro" type="xs:string" minOccurs="0"/>
+<xs:element name="Cidade" type="xs:string" minOccurs="0"/>
+<xs:element name="Estado" type="xs:string" minOccurs="0"/>
+<xs:element name="DDD" type="xs:string" minOccurs="0"/>
+<xs:element name="Telefone" type="xs:string" minOccurs="0"/>
+<xs:element name="Email" type="xs:string" minOccurs="0"/>
+<xs:element name="Previsao" type="xs:string" minOccurs="0"/>
+<xs:element name="Valor_Tot_Produto" type="xs:string" minOccurs="0"/>
+<xs:element name="Valor_Tot_Produto_Moeda" type="xs:string" minOccurs="0"/>
+<xs:element name="Valor_Frete" type="xs:string" minOccurs="0"/>
+<xs:element name="Valor_Frete_Moeda" type="xs:string" minOccurs="0"/>
+<xs:element name="idStatus" type="xs:string" minOccurs="0"/>
+<xs:element name="Mensagem" type="xs:string" minOccurs="0"/>
+<xs:element name="ListaProdutos" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType><xs:sequence><xs:element name="Produto" minOccurs="0" maxOccurs="unbounded">
+<xs:complexType><xs:sequence><xs:element name="Codigo" type="xs:string" minOccurs="0"/><xs:element name="Modelo" type="xs:string" minOccurs="0"/><xs:element name="Quantidade" type="xs:string" minOccurs="0"/><xs:element name="valor_reais_produto" type="xs:string" minOccurs="0"/><xs:element name="valor_moeda_produto" type="xs:string" minOccurs="0"/><xs:element name="Liberado" type="xs:string" minOccurs="0"/><xs:element name="Estoque" type="xs:string" minOccurs="0"/></xs:sequence>
+</xs:complexType>
+</xs:element></xs:sequence></xs:complexType></xs:element>
+</xs:sequence></xs:complexType></xs:element></xs:sequence>
+</xs:complexType></xs:element></xs:choice></xs:complexType>
+</xs:element></xs:schema><diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1"><XML xmlns=""><MagazineLuiza diffgr:id="MagazineLuiza1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenMagazineLuiza_Id="0"><Pedidos diffgr:id="Pedidos1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenPedidos_Id="0" msdata:hiddenMagazineLuiza_Id="0"><Chave_sessao>1188856</Chave_sessao><CPF>01010101078</CPF>
+<IdResgateCampanha>000</IdResgateCampanha>
+<Pedido>20656901</Pedido>
+<Quantidade_itens>1</Quantidade_itens>
+<Valor_Reais>35.05</Valor_Reais>
+<Valor_Moeda>35.05</Valor_Moeda>
+<CEP>02050010</CEP>
+<Endereco>Rua Miguel Mentem</Endereco>
+<Numero>100</Numero>
+<Complemento>Sala 2</Complemento>
+<Bairro>Vila Guilherme</Bairro>
+<Cidade>S&#xE3;o Paulo</Cidade>
+<Estado>SP</Estado>
+<DDD>11</DDD>
+<Telefone>999991234</Telefone>
+<Email>email@premiado.com</Email>
+<Previsao>07/10/2015 00:00:00</Previsao>
+<Valor_Tot_Produto>29.90</Valor_Tot_Produto>
+<Valor_Tot_Produto_Moeda>29.90</Valor_Tot_Produto_Moeda>
+<Valor_Frete>5.15</Valor_Frete>
+<Valor_Frete_Moeda>5.15</Valor_Frete_Moeda>
+<idStatus>0</idStatus>
+<Mensagem>Opera&#xE7;&#xE3;o realizada com sucesso</Mensagem>
+<ListaProdutos diffgr:id="ListaProdutos1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenListaProdutos_Id="0" msdata:hiddenPedidos_Id="0">
+<Produto diffgr:id="Produto1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenListaProdutos_Id="0"><Codigo>2033019</Codigo><Modelo>00</Modelo>
+<Quantidade>1</Quantidade>
+<valor_reais_produto>29.90</valor_reais_produto>
+<valor_moeda_produto>29.90</valor_moeda_produto>
+<Liberado>1</Liberado>
+<Estoque>1</Estoque>
+</Produto>
+</ListaProdutos>
+</Pedidos></MagazineLuiza>
+</XML></diffgr:diffgram></FinalizaPedidoResult>
+</FinalizaPedidoResponse>
+</soap:Body>
+</soap:Envelope>
