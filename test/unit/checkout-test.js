@@ -3,17 +3,16 @@
 require('../mock/got-mock');
 const expect = require('chai').expect;
 const MagazineLuizaAPI = require('../../index');
-const magazineLuiza = new MagazineLuizaAPI('0000');
 const shippingResult = require('../mock/json/shipping-result.json');
 const checkoutResult = require('../mock/json/checkout-result.json');
 
 describe('# MAGAZINE LUIZA API - ORDER - CHECKOUT', function() {
-	it('Should order has ownProperty checkout', function() {
-		expect(magazineLuiza.order).to.have.a.property('checkout');
-	});
+	let cart,
+		magazineLuiza;
 
-	it('Should checkout return an object with order informations', function() {
-		const cart = Object.assign({}, shippingResult, {
+	beforeEach(function() {
+		magazineLuiza = new MagazineLuizaAPI('0000');
+		cart = Object.assign({}, shippingResult, {
 			address: {
 				street: 'Rua Miguel Mentem',
 				number: '100',
@@ -32,7 +31,13 @@ describe('# MAGAZINE LUIZA API - ORDER - CHECKOUT', function() {
 			stateRegistration: 'ISENTO',
 			partnerOrderNumber: '1188856'
 		});
+	});
 
+	it('Should order has ownProperty checkout', function() {
+		expect(magazineLuiza.order).to.have.a.property('checkout');
+	});
+
+	it('Should checkout return an object with order informations', function() {
 		return magazineLuiza.order.checkout(cart)
 			.then(order => {
 				expect(order).to.be.deep.equal(checkoutResult);
