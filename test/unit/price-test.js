@@ -11,7 +11,7 @@ describe('# MAGAZINE LUIZA API - CATALOG - PRICE', function() {
 		expect(magazineLuiza.catalog).to.have.a.property('getPrice');
 	});
 
-	it('Should return an error if dont pass id or model', function() {
+	it('Should return an error if don\'t pass id or model', function() {
 		return magazineLuiza.catalog.getPrice()
 			.catch(err => {
 				return expect(err.message).to.be.equal(
