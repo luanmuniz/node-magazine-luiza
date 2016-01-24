@@ -15,7 +15,6 @@ describe('# MAGAZINE LUIZA API - ORDER - CALCULATE SHIPPING', function() {
 
 	it('Should calculate shipping', function() {
 		const options = {
-			sessionKey: '0',
 			cpf: '911.850.433-73',
 			cep: '17120-000',
 			products: [{
@@ -35,4 +34,11 @@ describe('# MAGAZINE LUIZA API - ORDER - CALCULATE SHIPPING', function() {
 			})
 		;
 	});
+
+	it('Should return an error if don\'t pass sessionKey');
+	it('Should return an error if don\'t pass CPF');
+	it('Should return an error if don\'t pass CEP');
+	it('Should return an error if don\'t pass products');
+	it('Should return an error if products don\'t be an array');
+	it('Should return an error if products dont have id, model and quantity properties');
 });
