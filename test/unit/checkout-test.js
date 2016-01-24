@@ -14,15 +14,19 @@ describe('# MAGAZINE LUIZA API - ORDER - CHECKOUT', function() {
 
 	it('Should checkout return an object with order informations', function() {
 		const cart = Object.assign({}, shippingResult, {
-			address: 'Rua Miguel Mentem',
-			number: '100',
-			complement: 'Sala 2',
-			district: 'Vila Guilherme',
-			city: 'São Paulo',
-			state: 'SP',
-			referency: 'Próximo à algum lugar',
-			ddd: '11',
-			phone: '999991234',
+			address: {
+				street: 'Rua Miguel Mentem',
+				number: '100',
+				complement: 'Sala 2',
+				district: 'Vila Guilherme',
+				city: 'São Paulo',
+				state: 'SP',
+				referency: 'Próximo à algum lugar',
+			},
+			phone: {
+				ddd: '11',
+				number: '999991234'
+			},
 			name: 'Maria Antonieta Silva',
 			email: 'email@premiado.com',
 			stateRegistration: 'ISENTO',
@@ -35,4 +39,16 @@ describe('# MAGAZINE LUIZA API - ORDER - CHECKOUT', function() {
 			});
 		;
 	});
+
+	it('Should return an error if don\'t pass sessionKey');
+	it('Should return an error if don\'t pass CPF or CNPJ');
+	it('Should return an error if don\'t pass CEP');
+	it('Should return an error if don\'t pass address street');
+	it('Should return an error if don\'t pass adress number');
+	it('Should return an error if don\'t pass address district');
+	it('Should return an error if don\'t pass address city');
+	it('Should return an error if don\'t pass address state');
+	it('Should return an error if don\'t pass name');
+	it('Should return an error if don\'t pass the stateRegistrantion and has a CNPJ');
+	it('Should return an error if don\'t pass a partnerOrderNumber');
 });

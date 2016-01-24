@@ -1,6 +1,8 @@
 'use strict';
 
-const CoreAPI = require('./lib/core');
+const CoreAPI = require('./lib/core'),
+	catalog = require('./lib/catalog'),
+	order = require('./lib/order');
 
 function MagazineLuizaAPI(partnerId, env) {
 	if(!this || !(this instanceof MagazineLuizaAPI)) {
@@ -9,8 +11,8 @@ function MagazineLuizaAPI(partnerId, env) {
 
 	CoreAPI.init(partnerId, env);
 
-	this.catalog = require('./lib/catalog');
-	this.order = require('./lib/order');
+	this.catalog = catalog;
+	this.order = order;
 }
 
 module.exports = MagazineLuizaAPI;
