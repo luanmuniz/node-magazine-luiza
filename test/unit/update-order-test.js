@@ -6,6 +6,6 @@ const magazineLuiza = new MagazineLuizaAPI('0000');
 
 describe('# MAGAZINE LUIZA API - ORDER - UPDATE ORDER', function() {
 	it('Should order has ownProperty updateOrder', function() {
-		expect(magazineLuiza.order).to.have.a.property('updateOrder');
+		expect(magazineLuiza.order).to.have.a.property('update');
 	});
 });
