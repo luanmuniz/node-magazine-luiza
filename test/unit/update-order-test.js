@@ -18,10 +18,7 @@ describe('# MAGAZINE LUIZA API - ORDER - UPDATE ORDER', function() {
 		};
 
 		return magazineLuiza.order.update(order)
-			.then(order => {
-				console.log(JSON.stringify(order));
-				expect(order).to.be.deep.equal(approveResult);
-			})
+			.then(order => expect(order).to.be.deep.equal(approveResult))
 		;
 	});
 });
