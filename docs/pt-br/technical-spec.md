@@ -11,7 +11,7 @@ const magazineLuiza = new MagazineLuizaAPI('000');
 Após isso, use o método `getTechnicalSpec()` em `catalog`, passando o ID e o Modelo do produto:
 
 ```js
-magazineLuiza.catalog.getTechnicalSpec(product.id, product.model);
+magazineLuiza.catalog.getTechnicalSpec(id, model);
 ```
 
 Para pegar o ID e Modelo do produto, é necessário buscar primeiro o catálogo de produtos, e então selecionar o produto que você quer a ficha técnica:
