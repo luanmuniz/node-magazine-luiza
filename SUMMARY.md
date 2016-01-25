@@ -10,6 +10,6 @@
 	* [Preço](docs/pt-br/price.md)
 * Envio de Pedidos
 	* [CEP de Entrega](docs/pt-br/cep.md)
-	* [Carrinho / Simulação de Frete]
+	* [Carrinho / Simulação de Frete](docs/pt-br/cart.md)
 	* [Pedido]
 	* [Aprovação]
