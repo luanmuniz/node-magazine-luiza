@@ -10,15 +10,15 @@
             "available": false,
             "id": "2083101",
             "model": "00",
-            "quantity": "1",
-            "stock": "1"
+            "quantity": 1,
+            "stock": 1
         },
         {
             "available": false,
             "id": "0235175",
             "model": "00",
-            "quantity": "1",
-            "stock": "1"
+            "quantity": 1,
+            "stock": 1
         }
     ],
     "sessionKey": "1861737",
