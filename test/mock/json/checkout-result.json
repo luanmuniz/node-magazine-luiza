@@ -20,13 +20,13 @@
             "available": true,
             "id": "2033019",
             "model": "00",
-            "quantity": "1",
-            "stock": "1",
+            "quantity": 1,
+            "stock": 1,
             "valueBrl": "29.90",
             "valueCurrency": "29.90"
         }
     ],
-    "quantityItems": "1",
+    "quantityItems": 1,
     "sessionKey": "1188856",
     "shippingValueBrl": "5.15",
     "shippingValueCurrency": "5.15",
