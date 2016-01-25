@@ -11,5 +11,5 @@
 * Envio de Pedidos
 	* [CEP de Entrega](docs/pt-br/cep.md)
 	* [Carrinho / Simulação de Frete](docs/pt-br/cart.md)
-	* [Pedido]
+	* [Pedido](docs/pt-br/checkout.md)
 	* [Aprovação]
