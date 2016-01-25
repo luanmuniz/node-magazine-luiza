@@ -12,4 +12,4 @@
 	* [CEP de Entrega](docs/pt-br/cep.md)
 	* [Carrinho / Simulação de Frete](docs/pt-br/cart.md)
 	* [Pedido](docs/pt-br/checkout.md)
-	* [Aprovação]
+	* [Aprovação](docs/pt-br/update-order.md)
