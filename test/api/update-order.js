@@ -13,7 +13,6 @@ describe('# [API] MAGAZINE LUIZA - ORDER - UPDATE', function() {
 		const order = magazineLuiza.order;
 		return checkout(magazineLuiza)
 			.then(response => {
-				console.log(response);
 				return order.update({
 					orderNumber: response.orderNumber,
 					cpf: response.cpf,
