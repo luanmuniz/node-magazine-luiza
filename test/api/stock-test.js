@@ -1,6 +1,7 @@
 'use strict';
 
 const expect = require('chai').expect;
+const getProducts = require('../helpers/get-products');
 const MagazineLuizaAPI = require('../../index');
 const PARTNER_ID = process.env.PARTNER_ID;
 const magazineLuiza = new MagazineLuizaAPI(PARTNER_ID, 'development');
@@ -10,7 +11,7 @@ describe('# [API] MAGAZINE LUIZA - CATALOG - STOCK', function() {
 
 	it('Should return true if there is a product in stock', function() {
 		const catalog = magazineLuiza.catalog;
-		return catalog.getProducts()
+		return getProducts(magazineLuiza)
 			.then(data => catalog.getStock(data[0].id, data[0].model))
 			.then(stock => expect(stock).to.be.an('object'))
 		;
