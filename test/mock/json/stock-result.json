@@ -1,10 +1,10 @@
 {
     "available": false,
-    "message": "Produto e/ou Modelo Inexistente",
+    "message": "Operação realizada com sucesso",
     "needsMount": false,
     "partnerId": "0000",
     "productId": "0000000",
     "productModel": "00",
     "productQuantity": "1",
-    "status": "3"
+    "status": "0"
 }
