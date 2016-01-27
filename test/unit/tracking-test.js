@@ -67,7 +67,7 @@ describe('# MAGAZINE LUIZA API - POST SALE - TRACKING', function() {
 
 		return trackingHelper.parseObject(options)
 			.catch(err => {
-				expect(err.err).to.have.all.keys('status', 'message');
+				expect(err.err).to.contains.all.keys('status', 'message');
 			})
 		;
 	});
