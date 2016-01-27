@@ -3,7 +3,8 @@
 require('../mock/got-mock');
 const expect = require('chai').expect;
 const MagazineLuizaAPI = require('../../index');
-const stockResult = require('../mock/json/product-in-stock-result.json');
+const stockHelper = require('../../lib/catalog/stock-helper');
+const stockResult = require('../mock/json/stock-result.json');
 const magazineLuiza = new MagazineLuizaAPI('0000');
 
 describe('# MAGAZINE LUIZA API - CATALOG - STOCK', function() {
@@ -28,6 +29,20 @@ describe('# MAGAZINE LUIZA API - CATALOG - STOCK', function() {
 		return magazineLuiza.catalog.getStock(productID, productModel)
 			.then(stock => {
 				expect(stock).to.be.deep.equal(stockResult);
+			})
+		;
+	});
+
+	it('Should return an error if returned status is different from zero',
+	function() {
+		const options = {
+			idStatus: '1',
+			Mensagem: 'Some error message'
+		};
+
+		return stockHelper.parseObject(options)
+			.catch(err => {
+				expect(err.err).to.have.all.keys('status', 'message');
 			})
 		;
 	});
