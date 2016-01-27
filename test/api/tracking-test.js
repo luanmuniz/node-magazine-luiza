@@ -18,9 +18,7 @@ describe('# [API] MAGAZINE LUIZA - POST SALE - TRACKING', function() {
 				expect(track).to.have.all.keys(Object.keys(trakingResult));
 			})
 			.catch(err => {
-				console.log(err);
-				expect(err).to.have.deep.property('err.status');
-				expect(err).to.have.deep.property('err.message');
+				expect(err.err).to.contains.all.keys('status', 'message');
 			})
 		;
 	});
