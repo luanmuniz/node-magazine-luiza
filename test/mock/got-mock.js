@@ -22,7 +22,8 @@ let xmls = {
 	ConsultaCEP: path.resolve.apply(path, xmlMockPath.concat('cep.xml')),
 	CalculaFrete: path.resolve.apply(path, xmlMockPath.concat('shipping.xml')),
 	FinalizaPedido: path.resolve.apply(path, xmlMockPath.concat('checkout.xml')),
-	AprovaPedido: path.resolve.apply(path, xmlMockPath.concat('approve.xml'))
+	AprovaPedido: path.resolve.apply(path, xmlMockPath.concat('approve.xml')),
+	TrackingFull: path.resolve.apply(path, xmlMockPath.concat('tracking.xml'))
 };
 
 got.get = (url, options) => {
