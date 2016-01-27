@@ -88,7 +88,7 @@ Esse método retorna uma Promise. O resultado da Promise é um objeto no formato
 	deliveryDate: <String> Data_Entrega,
 	status: <String> idStatus,
 	message: <String> Mensagem,
-	products: [
+	products: <Array> ListaProdutos.Produto [
 		{
 			id: <String> Codigo,
 			model: <String> Modelo,

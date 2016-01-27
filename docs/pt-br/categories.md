@@ -8,7 +8,7 @@ Primeiro é necessário instanciar o objeto `MagazineLuizaAPI`, passando o seu I
 const magazineLuiza = new MagazineLuizaAPI('000');
 ```
 
-Após isso, use o método `getCategories()` em `catalog` para obter o catálogo:
+Após isso, use o método `getCategories()` em `catalog` para obter as categorias:
 
 ```js
 magazineLuiza.catalog.getCategories();
