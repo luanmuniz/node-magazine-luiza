@@ -38,7 +38,7 @@ describe('# MAGAZINE LUIZA API - ORDER - CEP', function() {
 
 		return cepHelper.parseObject(options)
 			.catch(err => {
-				expect(err.err).to.have.all.keys('status', 'message');
+				expect(err.err).to.contains.all.keys('status', 'message');
 			})
 		;
 	});
