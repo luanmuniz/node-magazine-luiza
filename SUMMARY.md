@@ -13,3 +13,5 @@
 	* [Carrinho / Simulação de Frete](docs/pt-br/cart.md)
 	* [Pedido](docs/pt-br/checkout.md)
 	* [Aprovação](docs/pt-br/update-order.md)
+* Pós-venda
+	* [Tracking](docs/pt-br/tracking.md)

@@ -117,14 +117,16 @@ Esse método retorna uma Promise. O resultado da Promise é um objeto no formato
 	orderTotalValueBrl: <String> Valor_Tot_Produto,
 	orderTotalValueCurrency: <String> Valor_Tot_Produto_Moeda,
 	status: <String> idStatus,
-	products: [{
-		id: <String> Codigo,
-		model: <String> Modelo,
-		stock: <Number> Estoque,
-		available: <Boolean> Liberado,
-		quantity: <Number> Quantidade,
-		valueCurrency: <String> valor_moeda_produto,
-		valueBrl: <String> valor_reais_produto
-	}]
+	products: <Array> ListaProdutos.Produto [
+		{
+			id: <String> Codigo,
+			model: <String> Modelo,
+			stock: <Number> Estoque,
+			available: <Boolean> Liberado,
+			quantity: <Number> Quantidade,
+			valueCurrency: <String> valor_moeda_produto,
+			valueBrl: <String> valor_reais_produto
+		}
+	]
 }
 ```
