@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <s:Header xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"/>
+  <soap:Body>
+    <TrackingFullResponse xmlns="http://tempuri.org/">
+      <TrackingFullResult>
+        <xs:schema xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="XML">
+          <xs:element name="XML" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+            <xs:complexType>
+              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="MagazineLuiza">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="Pedidos" minOccurs="0" maxOccurs="unbounded">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="CPF" type="xs:string" minOccurs="0"/>
+                            <xs:element name="IdResgateCampanha" type="xs:string" minOccurs="0"/>
+                            <xs:element name="Pedido" type="xs:string" minOccurs="0"/>
+                            <xs:element name="PedidoParceiro" type="xs:string" minOccurs="0"/>
+                            <xs:element name="DataPedido" type="xs:string" minOccurs="0"/>
+                            <xs:element name="EntregaPrevista" type="xs:string" minOccurs="0"/>
+                            <xs:element name="PedidoStatusId" type="xs:string" minOccurs="0"/>
+                            <xs:element name="PedidoStatusDesc" type="xs:string" minOccurs="0"/>
+                            <xs:element name="idStatus" type="xs:string" minOccurs="0"/>
+                            <xs:element name="Mensagem" type="xs:string" minOccurs="0"/>
+                            <xs:element name="ListaEntrega" minOccurs="0" maxOccurs="unbounded">
+                              <xs:complexType>
+                                <xs:sequence>
+                                  <xs:element name="Entrega" minOccurs="0" maxOccurs="unbounded">
+                                    <xs:complexType>
+                                      <xs:sequence>
+                                        <xs:element name="NotaFiscalNumero" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="NotaFiscalChave" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="EntregaPrevista" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="UrlRastreamento" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="ListaStatus" minOccurs="0" maxOccurs="unbounded">
+                                          <xs:complexType>
+                                            <xs:sequence>
+                                              <xs:element name="Status" minOccurs="0" maxOccurs="unbounded">
+                                                <xs:complexType>
+                                                  <xs:sequence>
+                                                    <xs:element name="StatusId" type="xs:string" minOccurs="0"/>
+                                                    <xs:element name="DataStatus" type="xs:string" minOccurs="0"/>
+                                                    <xs:element name="DescStatus" type="xs:string" minOccurs="0"/>
+                                                  </xs:sequence>
+                                                </xs:complexType>
+                                              </xs:element>
+                                            </xs:sequence>
+                                          </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="ListaHistorico" minOccurs="0" maxOccurs="unbounded">
+                                          <xs:complexType>
+                                            <xs:sequence>
+                                              <xs:element name="Historico" minOccurs="0" maxOccurs="unbounded">
+                                                <xs:complexType>
+                                                  <xs:sequence>
+                                                    <xs:element name="DataHistorico" type="xs:string" minOccurs="0"/>
+                                                    <xs:element name="DescHistorico" type="xs:string" minOccurs="0"/>
+                                                  </xs:sequence>
+                                                </xs:complexType>
+                                              </xs:element>
+                                            </xs:sequence>
+                                          </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="ListaProdutos" minOccurs="0" maxOccurs="unbounded">
+                                          <xs:complexType>
+                                            <xs:sequence>
+                                              <xs:element name="Produto" minOccurs="0" maxOccurs="unbounded">
+                                                <xs:complexType>
+                                                  <xs:sequence>
+                                                    <xs:element name="ProdutoId" type="xs:string" minOccurs="0"/>
+                                                    <xs:element name="DescProduto" type="xs:string" minOccurs="0"/>
+                                                  </xs:sequence>
+                                                </xs:complexType>
+                                              </xs:element>
+                                            </xs:sequence>
+                                          </xs:complexType>
+                                        </xs:element>
+                                      </xs:sequence>
+                                    </xs:complexType>
+                                  </xs:element>
+                                </xs:sequence>
+                              </xs:complexType>
+                            </xs:element>
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                      <xs:element name="EnderecoEntrega" minOccurs="0" maxOccurs="unbounded">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="Endereco" type="xs:string" minOccurs="0"/>
+                            <xs:element name="Numero" type="xs:string" minOccurs="0"/>
+                            <xs:element name="Complemento" type="xs:string" minOccurs="0"/>
+                            <xs:element name="Bairro" type="xs:string" minOccurs="0"/>
+                            <xs:element name="Cidade" type="xs:string" minOccurs="0"/>
+                            <xs:element name="Estado" type="xs:string" minOccurs="0"/>
+                            <xs:element name="CEP" type="xs:string" minOccurs="0"/>
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+              </xs:choice>
+            </xs:complexType>
+          </xs:element>
+        </xs:schema>
+        <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+          <XML xmlns="">
+            <MagazineLuiza diffgr:id="MagazineLuiza1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenMagazineLuiza_Id="0">
+              <Pedidos diffgr:id="Pedidos1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenPedidos_Id="0" msdata:hiddenMagazineLuiza_Id="0">
+                <CPF>11111111111</CPF>
+                <IdResgateCampanha>123</IdResgateCampanha>
+                <Pedido>11111111</Pedido>
+                <PedidoParceiro>123</PedidoParceiro>
+                <DataPedido>00/00/2014 15:44:28</DataPedido>
+                <EntregaPrevista>00/00/2014</EntregaPrevista>
+                <PedidoStatusId>39</PedidoStatusId>
+                <PedidoStatusDesc>Entregue</PedidoStatusDesc>
+                <EnderecoEntrega diffgr:id="EnderecoEntrega1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenMagazineLuiza_Id="0">
+                  <Endereco>Rua</Endereco>
+                  <Numero>123</Numero>
+                  <Complemento>Complemento</Complemento>
+                  <Bairro>Bairro</Bairro>
+                  <Cidade>Cidade</Cidade>
+                  <Estado>SP</Estado>
+                  <CEP>111111111</CEP>
+                </EnderecoEntrega>
+                <idStatus>0</idStatus>
+                <Mensagem>Opera&#xE7;&#xE3;o realizada com sucesso</Mensagem>
+                <ListaEntrega diffgr:id="ListaEntrega1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenListaEntrega_Id="0" msdata:hiddenPedidos_Id="0">
+                  <Entrega diffgr:id="Entrega1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenEntrega_Id="0" msdata:hiddenListaEntrega_Id="0">
+                    <NotaFiscalNumero>12344</NotaFiscalNumero>
+                    <NotaFiscalChave>11111111111111111111111111111111111111111111</NotaFiscalChave>
+                    <EntregaPrevista>00/00/2014</EntregaPrevista>
+                    <UrlRastreamento>http://websro.correios.com.br/sro_bin/txect01$.QueryList?P_LINGUA=001&amp;P_TIPO=001&amp;P_COD_UNI=1111111111111</UrlRastreamento>
+                    <ListaStatus diffgr:id="ListaStatus1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenListaStatus_Id="0" msdata:hiddenEntrega_Id="0">
+                      <Status diffgr:id="Status1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenListaStatus_Id="0">
+                        <StatusId>1</StatusId>
+                        <DataStatus>00/00/2014 15:54:52</DataStatus>
+                        <DescStatus>Pedido Realizado - Aguardando</DescStatus>
+                      </Status>
+                      <Status diffgr:id="Status2" msdata:rowOrder="1" diffgr:hasChanges="inserted" msdata:hiddenListaStatus_Id="0">
+                        <StatusId>2</StatusId>
+                        <DataStatus>00/00/2014 15:54:52</DataStatus>
+                        <DescStatus>Pagamento - Recebemos a confirma&#xE7;&#xE3;o do pagamento de seu pedido e vamos dar continuidade ao processo de envio.</DescStatus>
+                      </Status>
+                    </ListaStatus>
+                    <ListaHistorico diffgr:id="ListaHistorico1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenListaHistorico_Id="0" msdata:hiddenEntrega_Id="0">
+                      <Historico diffgr:id="Historico1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenListaHistorico_Id="0">
+                        <DataHistorico>00/00/2014 15:54:52</DataHistorico>
+                        <DescHistorico>Recebemos a confirma&#xE7;&#xE3;o do pagamento de seu pedido e vamos dar continuidade ao processo de envio.</DescHistorico>
+                      </Historico>
+                      <Historico diffgr:id="Historico2" msdata:rowOrder="1" diffgr:hasChanges="inserted" msdata:hiddenListaHistorico_Id="0">
+                        <DataHistorico>00/00/2014 15:59:22</DataHistorico>
+                        <DescHistorico>O pedido j&#xE1; est&#xE1; com a transportadora e ser&#xE1; entregue dentro do prazo informado na compra.</DescHistorico>
+                      </Historico>
+                      <Historico diffgr:id="Historico3" msdata:rowOrder="2" diffgr:hasChanges="inserted" msdata:hiddenListaHistorico_Id="0">
+                        <DataHistorico>00/00/2014 17:30:07</DataHistorico>
+                        <DescHistorico>A nota fiscal de seu pedido j&#xE1; foi emitida, estamos encaminhando para a transportadora respons&#xE1;vel pela entrega.</DescHistorico>
+                      </Historico>
+                      <Historico diffgr:id="Historico4" msdata:rowOrder="3" diffgr:hasChanges="inserted" msdata:hiddenListaHistorico_Id="0">
+                        <DataHistorico>00/00/2014 12:50:00</DataHistorico>
+                        <DescHistorico>Seu pedido foi entregue com sucesso</DescHistorico>
+                      </Historico>
+                    </ListaHistorico>
+                    <ListaProdutos diffgr:id="ListaProdutos1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenListaProdutos_Id="0" msdata:hiddenEntrega_Id="0">
+                      <Produto diffgr:id="Produto1" msdata:rowOrder="0" diffgr:hasChanges="inserted" msdata:hiddenListaProdutos_Id="0">
+                        <ProdutoId>0212228</ProdutoId>
+                        <DescProduto>Batedeira Philips Walita Viva Collection Mixer</DescProduto>
+                      </Produto>
+                    </ListaProdutos>
+                  </Entrega>
+                  <Entrega diffgr:id="Entrega2" msdata:rowOrder="1" diffgr:hasChanges="inserted" msdata:hiddenEntrega_Id="1" msdata:hiddenListaEntrega_Id="0">
+                    <NotaFiscalNumero>12345</NotaFiscalNumero>
+                    <NotaFiscalChave>11111111111111111111111111111111111111111111</NotaFiscalChave>
+                    <EntregaPrevista>00/00/2014</EntregaPrevista>
+                    <UrlRastreamento/>
+                    <ListaStatus diffgr:id="ListaStatus2" msdata:rowOrder="1" diffgr:hasChanges="inserted" msdata:hiddenListaStatus_Id="1" msdata:hiddenEntrega_Id="1">
+                      <Status diffgr:id="Status3" msdata:rowOrder="2" diffgr:hasChanges="inserted" msdata:hiddenListaStatus_Id="1">
+                        <StatusId>1</StatusId>
+                        <DataStatus>00/00/2014 15:54:54</DataStatus>
+                        <DescStatus>Pedido Realizado - Aguardando</DescStatus>
+                      </Status>
+                      <Status diffgr:id="Status4" msdata:rowOrder="3" diffgr:hasChanges="inserted" msdata:hiddenListaStatus_Id="1">
+                        <StatusId>2</StatusId>
+                        <DataStatus>00/00/2014 15:54:54</DataStatus>
+                        <DescStatus>Pagamento - Recebemos a confirma&#xE7;&#xE3;o do pagamento de seu pedido e vamos dar continuidade ao processo de envio.</DescStatus>
+                      </Status>
+                      <Status diffgr:id="Status5" msdata:rowOrder="4" diffgr:hasChanges="inserted" msdata:hiddenListaStatus_Id="1">
+                        <StatusId>3</StatusId>
+                        <DataStatus>00/00/2014 23:30:03</DataStatus>
+                        <DescStatus>Separa&#xE7;&#xE3;o em Estoque - Sucesso</DescStatus>
+                      </Status>
+                      <Status diffgr:id="Status6" msdata:rowOrder="5" diffgr:hasChanges="inserted" msdata:hiddenListaStatus_Id="1">
+                        <StatusId>4</StatusId>
+                        <DataStatus>00/00/2014 22:28:37</DataStatus>
+                        <DescStatus>Produto em Transporte - Sucesso</DescStatus>
+                      </Status>
+                      <Status diffgr:id="Status7" msdata:rowOrder="6" diffgr:hasChanges="inserted" msdata:hiddenListaStatus_Id="1">
+                        <StatusId>5</StatusId>
+                        <DataStatus>00/00/2014 13:27:00</DataStatus>
+                        <DescStatus>Entrega - SUCESSO</DescStatus>
+                      </Status>
+                    </ListaStatus>
+                    <ListaHistorico diffgr:id="ListaHistorico2" msdata:rowOrder="1" diffgr:hasChanges="inserted" msdata:hiddenListaHistorico_Id="1" msdata:hiddenEntrega_Id="1">
+                      <Historico diffgr:id="Historico5" msdata:rowOrder="4" diffgr:hasChanges="inserted" msdata:hiddenListaHistorico_Id="1">
+                        <DataHistorico>00/00/2014 15:54:54</DataHistorico>
+                        <DescHistorico>Recebemos a confirma&#xE7;&#xE3;o do pagamento de seu pedido e vamos dar continuidade ao processo de envio.</DescHistorico>
+                      </Historico>
+                      <Historico diffgr:id="Historico6" msdata:rowOrder="5" diffgr:hasChanges="inserted" msdata:hiddenListaHistorico_Id="1">
+                        <DataHistorico>00/00/2014 22:28:37</DataHistorico>
+                        <DescHistorico>O pedido j&#xE1; est&#xE1; com a transportadora e ser&#xE1; entregue dentro do prazo informado na compra.</DescHistorico>
+                      </Historico>
+                      <Historico diffgr:id="Historico7" msdata:rowOrder="6" diffgr:hasChanges="inserted" msdata:hiddenListaHistorico_Id="1">
+                        <DataHistorico>00/00/2014 23:30:03</DataHistorico>
+                        <DescHistorico>A nota fiscal de seu pedido j&#xE1; foi emitida, estamos encaminhando para a transportadora respons&#xE1;vel pela entrega.</DescHistorico>
+                      </Historico>
+                      <Historico diffgr:id="Historico8" msdata:rowOrder="7" diffgr:hasChanges="inserted" msdata:hiddenListaHistorico_Id="1">
+                        <DataHistorico>00/00/2014 13:27:00</DataHistorico>
+                        <DescHistorico>Seu pedido foi entregue com sucesso</DescHistorico>
+                      </Historico>
+                    </ListaHistorico>
+                    <ListaProdutos diffgr:id="ListaProdutos2" msdata:rowOrder="1" diffgr:hasChanges="inserted" msdata:hiddenListaProdutos_Id="1" msdata:hiddenEntrega_Id="1">
+                      <Produto diffgr:id="Produto2" msdata:rowOrder="1" diffgr:hasChanges="inserted" msdata:hiddenListaProdutos_Id="1">
+                        <ProdutoId>2101870</ProdutoId>
+                        <DescProduto>Toalha de Rosto Santista Royal Knut</DescProduto>
+                      </Produto>
+                      <Produto diffgr:id="Produto3" msdata:rowOrder="2" diffgr:hasChanges="inserted" msdata:hiddenListaProdutos_Id="1">
+                        <ProdutoId>0811921</ProdutoId>
+                        <DescProduto>Toalha de Rosto Total Mix Retr&#xF4;</DescProduto>
+                      </Produto>
+                      <Produto diffgr:id="Produto4" msdata:rowOrder="3" diffgr:hasChanges="inserted" msdata:hiddenListaProdutos_Id="1">
+                        <ProdutoId>0843469</ProdutoId>
+                        <DescProduto>Cobre-Leito Casal Santista Unique Karina</DescProduto>
+                      </Produto>
+                      <Produto diffgr:id="Produto5" msdata:rowOrder="4" diffgr:hasChanges="inserted" msdata:hiddenListaProdutos_Id="1">
+                        <ProdutoId>0843131</ProdutoId>
+                        <DescProduto>Travesseiro em Percal 180 Fios Macio</DescProduto>
+                      </Produto>
+                      <Produto diffgr:id="Produto6" msdata:rowOrder="5" diffgr:hasChanges="inserted" msdata:hiddenListaProdutos_Id="1">
+                        <ProdutoId>2031234</ProdutoId>
+                        <DescProduto>Travesseiro Viscoel&#xE1;stico</DescProduto>
+                      </Produto>
+                    </ListaProdutos>
+                  </Entrega>
+                </ListaEntrega>
+              </Pedidos>
+            </MagazineLuiza>
+          </XML>
+        </diffgr:diffgram>
+      </TrackingFullResult>
+    </TrackingFullResponse>
+  </soap:Body>
+</soap:Envelope>
