@@ -2,6 +2,7 @@
 
 const expect = require('chai').expect;
 const checkout = require('../helpers/checkout');
+const approveResult = require('../mock/json/approve-result.json');
 const MagazineLuizaAPI = require('../../index');
 const PARTNER_ID = process.env.PARTNER_ID;
 const magazineLuiza = new MagazineLuizaAPI(PARTNER_ID, 'development');
@@ -20,7 +21,10 @@ describe('# [API] MAGAZINE LUIZA - ORDER - UPDATE', function() {
 				});
 			})
 			.then(response => {
-				expect(response).to.be.an('object');
+				expect(response).to.have.all.keys(Object.keys(approveResult));
+			})
+			.catch(err => {
+				expect(err.err).to.contains.all.keys('status', 'message');
 			})
 		;
 	});
