@@ -42,7 +42,7 @@ describe('# MAGAZINE LUIZA API - CATALOG - STOCK', function() {
 
 		return stockHelper.parseObject(options)
 			.catch(err => {
-				expect(err.err).to.have.all.keys('status', 'message');
+				expect(err.err).to.contains.all.keys('status', 'message');
 			})
 		;
 	});
