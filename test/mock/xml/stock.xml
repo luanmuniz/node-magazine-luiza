@@ -41,8 +41,8 @@
                 <Quantidade>1</Quantidade>
                 <Liberado>0</Liberado>
                 <IdResgateCampanha>0000</IdResgateCampanha>
-                <idStatus>3</idStatus>
-                <Mensagem>Produto e/ou Modelo Inexistente</Mensagem>
+                <idStatus>0</idStatus>
+                <Mensagem>Operação realizada com sucesso</Mensagem>
                 <tem_montagem>0</tem_montagem>
               </ConsultaProduto>
             </MagazineLuiza>
