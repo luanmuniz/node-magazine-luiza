@@ -11,6 +11,9 @@ describe('# [API] MAGAZINE LUIZA - ORDER - CEP', function() {
 			.then(cep => {
 				expect(cep).to.be.an('object');
 			})
+			.catch(err => {
+				expect(err.err).to.contains.all.keys('status', 'message');
+			})
 		;
 	});
 });
