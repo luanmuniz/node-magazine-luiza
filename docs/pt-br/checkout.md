@@ -51,22 +51,27 @@ Esse método retorna uma Promise. O resultado da Promise é um objeto no formato
 
 ```json
 {
-    "address": "Rua Miguel Mentem",
+	"street": {
+		"street": "Rua Miguel Mentem",
+		"number": "100",
+		"complement": "Sala 2",
+		"district": "Vila Guilherme",
+		"city": "S\u00e3o Paulo",
+		"state": "SP"
+	},
+	"phone": {
+		"ddd": "11",
+		"number": "999991234"
+	},
     "cep": "02050010",
-    "city": "S\u00e3o Paulo",
-    "complement": "Sala 2",
     "cpf": "01010101078",
-    "ddd": "11",
     "deliveryForecast": "07/10/2015 00:00:00",
-    "district": "Vila Guilherme",
     "email": "email@premiado.com",
     "message": "Opera\u00e7\u00e3o realizada com sucesso",
-    "number": "100",
     "orderNumber": "20656901",
     "orderTotalValueBrl": "29.90",
     "orderTotalValueCurrency": "29.90",
     "partnerId": "000",
-    "phone": "999991234",
     "products": [
         {
             "available": true,
@@ -82,7 +87,6 @@ Esse método retorna uma Promise. O resultado da Promise é um objeto no formato
     "sessionKey": "1188856",
     "shippingValueBrl": "5.15",
     "shippingValueCurrency": "5.15",
-    "state": "SP",
     "status": "0",
     "valueBrl": "35.05",
     "valueCurrency": "35.05"
@@ -93,20 +97,24 @@ Esse método retorna uma Promise. O resultado da Promise é um objeto no formato
 
 ```js
 {
-	district: <String> Bairro,
+	address: {
+		street: <String> Endereco,
+		number: <String> Numero,
+		complement: <String> Complemento,
+		district: <String> Bairro,
+		city: <String> Cidade,
+		state: <String> Estado
+	},
+	phone: {
+		ddd: <String> DDD,
+		number: <String> Telefone
+	},
 	cep: <String> CEP,
 	cpf: <String> CPF,
 	sessionKey: <String> Chave_sessao,
-	city: <String> Cidade,
-	complement: <String> Complemento,
-	ddd: <String> DDD,
-	phone: <String> Telefone,
 	email: <String> Email,
-	address: <String> Endereco,
-	state: <String> Estado,
 	partnerId: <String> IdResgateCampanha,
 	message: <String> Mensagem,
-	number: <String> Numero,
 	orderNumber: <String> Pedido,
 	deliveryForecast: <String> Previsao,
 	quantityItems: <Number> Quantidade_itens,
