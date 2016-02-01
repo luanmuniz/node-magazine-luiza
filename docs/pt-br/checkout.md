@@ -51,7 +51,7 @@ Esse método retorna uma Promise. O resultado da Promise é um objeto no formato
 
 ```json
 {
-	"street": {
+	"address": {
 		"street": "Rua Miguel Mentem",
 		"number": "100",
 		"complement": "Sala 2",
