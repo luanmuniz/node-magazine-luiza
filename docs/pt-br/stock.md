@@ -36,7 +36,7 @@ Esse método retorna uma Promise. O resultado da Promise é o objeto no formato:
     "partnerId": "0000",
     "productId": "0000000",
     "productModel": "00",
-    "productQuantity": "1",
+    "productQuantity": 1,
     "status": "3"
 }
 ```
