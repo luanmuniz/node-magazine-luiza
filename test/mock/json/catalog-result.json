@@ -61,7 +61,10 @@
         "reference": "para Lou\u00e7a Celite - Pontto Lavabo",
         "salePrice": "329.90",
         "subcategory": "CJSA",
-        "voltage": 3
+        "voltage": {
+            "code": 3,
+            "description": "Does not use electricity"
+        }
     },
     {
         "action": "add",
@@ -125,7 +128,10 @@
         "reference": "12 X\u00edcaras",
         "salePrice": "69.90",
         "subcategory": "CAFE",
-        "voltage": 1
+        "voltage": {
+            "code": 1,
+            "description": "110 volts"
+        }
     },
     {
         "action": "add",
@@ -189,7 +195,10 @@
         "reference": "12 X\u00edcaras",
         "salePrice": "69.90",
         "subcategory": "CAFE",
-        "voltage": 2
+        "voltage": {
+            "code": 2,
+            "description": "220 volts"
+        }
     },
     {
         "action": "add",
@@ -253,6 +262,9 @@
         "reference": "Desligamento Autom\u00e1tico + 1 Sab\u00e3o em P\u00f3 Tixan Yp\u00ea",
         "salePrice": "379.00",
         "subcategory": "TANK",
-        "voltage": 1
+        "voltage": {
+            "code": 1,
+            "description": "110 volts"
+        }
     }
 ]
