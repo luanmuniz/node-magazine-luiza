@@ -80,7 +80,10 @@ Esse método retorna uma Promise. O resultado da Promise é um array de objetos,
         "reference": "para Lou\u00e7a Celite - Pontto Lavabo",
         "salePrice": "329.90",
         "subcategory": "CJSA",
-        "voltage": 3
+        "voltage": {
+			"code": 3,
+			"description": "Does not use electricity"
+		}
     }
 ]
 ```
@@ -138,6 +141,9 @@ As imagens estão no objeto `images`, e estão separadas em outros dois objetos:
 	needsMount: <String> TEM_MONTAGEM,
 	price: <String> VALOR,
 	salePrice: <String> VALOR_VENDA,
-	voltage: <Number> VOLTAGEM
+	voltage: {
+		code: <Number> VOLTAGEM,
+		description: <String>
+	}
 }
 ```
