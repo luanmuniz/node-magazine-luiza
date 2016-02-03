@@ -20,28 +20,30 @@ describe('# [API] MAGAZINE LUIZA - CATALOG - PRODUCTS', function() {
 		expect(result).to.be.an('array');
 	});
 
-	it('Should result to have all product properties', function() {
-		expect(result[0]).to.have.all.keys(
-			'action',
-			'active',
-			'category',
-			'ncm',
-			'id',
-			'changeDate',
-			'description',
-			'descriptionCategory',
-			'descriptionSubcategory',
-			'images',
-			'amountImageDetails',
-			'brand',
-			'master',
-			'model',
-			'reference',
-			'subcategory',
-			'needsMount',
-			'price',
-			'salePrice',
-			'voltage'
-		);
+	const productProperties = [
+		'action',
+		'active',
+		'category',
+		'ncm',
+		'id',
+		'changeDate',
+		'description',
+		'descriptionCategory',
+		'descriptionSubcategory',
+		'images',
+		'amountImageDetails',
+		'brand',
+		'master',
+		'model',
+		'reference',
+		'subcategory',
+		'needsMount',
+		'price',
+		'salePrice',
+		'voltage'
+	];
+	it(`Should result to have properties: ${productProperties.toString()}`,
+	function() {
+		expect(result[0]).to.have.all.keys(productProperties);
 	});
 });
