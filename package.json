@@ -1,7 +1,7 @@
 {
   "name": "magazine-luiza",
   "version": "1.2.0",
-  "description": "A library for Magazine Luiza API",
+  "description": "A nonofficial library for Magazine Luiza B2B Public API using Promises",
   "main": "index.js",
   "scripts": {
     "test": "gulp test:api && gulp test:unit",
