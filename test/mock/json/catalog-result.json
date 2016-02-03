@@ -129,31 +129,45 @@
         "id": "0235174",
         "images": {
             "category": {
-                "details": [],
+                "details": [
+                    "http://i.mlcdn.com.br/210x210/023517400a.jpg"
+                ],
                 "main": "http://i.mlcdn.com.br/210x210/023517400.jpg"
             },
             "default": {
-                "details": [],
+                "details": [
+                    "http://i.mlcdn.com.br/210x210/023517400a.jpg"
+                ],
                 "main": "http://i.mlcdn.com.br/210x210/023517400.jpg"
             },
             "productDetail": {
-                "details": [],
+                "details": [
+                    "http://i.mlcdn.com.br/410x308/023517400a.jpg"
+                ],
                 "main": "http://i.mlcdn.com.br/410x308/023517400.jpg"
             },
             "productLarge": {
-                "details": [],
+                "details": [
+                    "http://i.mlcdn.com.br/1500x1500/023517400a.jpg"
+                ],
                 "main": "http://i.mlcdn.com.br/1500x1500/023517400.jpg"
             },
             "productPPI": {
-                "details": [],
+                "details": [
+                    "http://i.mlcdn.com.br/210x210/023517400a.jpg"
+                ],
                 "main": "http://i.mlcdn.com.br/210x210/023517400.jpg"
             },
             "showcase": {
-                "details": [],
+                "details": [
+                    "http://i.mlcdn.com.br/210x210/023517400a.jpg"
+                ],
                 "main": "http://i.mlcdn.com.br/210x210/023517400.jpg"
             },
             "showcaseLarge": {
-                "details": [],
+                "details": [
+                    "http://i.mlcdn.com.br/1500x1500/023517400a.jpg"
+                ],
                 "main": "http://i.mlcdn.com.br/1500x1500/023517400.jpg"
             }
         },
