@@ -35,7 +35,7 @@
     "sessionKey": "1188856",
     "shippingValueBrl": "5.15",
     "shippingValueCurrency": "5.15",
-    "status": "0",
+    "status": 0,
     "valueBrl": "35.05",
     "valueCurrency": "35.05"
 }
