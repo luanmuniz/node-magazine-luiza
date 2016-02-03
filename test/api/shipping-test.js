@@ -7,7 +7,7 @@ const PARTNER_ID = process.env.PARTNER_ID;
 const magazineLuiza = new MagazineLuizaAPI(PARTNER_ID, 'development');
 
 describe('# [API] MAGAZINE LUIZA - ORDER - CALCULATE SHIPPING', function() {
-	 this.timeout(5000);
+	 this.timeout(90000);
 
 	it('Should calculate shipping', function() {
 		return calculateShipping(magazineLuiza)

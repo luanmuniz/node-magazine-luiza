@@ -3,7 +3,7 @@
     "partnerId": "123",
     "productId": "2116449",
     "productModel": "00",
-    "status": "0",
+    "status": 0,
     "valueBrl": "3219.08",
     "valueCurrency": "3219.08"
 }

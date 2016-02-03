@@ -8,11 +8,27 @@ const magazineLuiza = new MagazineLuizaAPI(PARTNER_ID);
 describe('# [API] MAGAZINE LUIZA - CATALOG - CATEGORIES', function() {
 	this.timeout(5000);
 
-	it('Should return all categories', function() {
+	let result;
+	before(function() {
 		return magazineLuiza.catalog.getCategories()
 			.then(data => {
-				return expect(data).to.be.an('array');
+				result = data;
 			})
 		;
+	});
+
+	it('Should result to be an array', function() {
+		expect(result).to.be.an('array');
+
+	});
+
+	it('Should array item has properties category and subcategory ID and description',
+	function() {
+		expect(result[0]).to.have.all.keys(
+			'categoryDescription',
+			'categoryId',
+			'subcategoryDescription',
+			'subcategoryId'
+		);
 	});
 });

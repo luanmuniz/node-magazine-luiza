@@ -2,6 +2,7 @@
     {
         "action": "add",
         "active": true,
+        "amountImageDetails": 9,
         "brand": "pontto lavabo",
         "category": "CJ",
         "changeDate": "2015-06-26T15:30:00.705391",
@@ -12,43 +13,92 @@
         "images": {
             "category": {
                 "details": [
-                    "http://i.mlcdn.com.br/210x210/206544800a.jpg"
+                    "http://i.mlcdn.com.br/210x210/206544800a.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800b.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800c.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800d.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800e.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800f.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800g.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/210x210/206544800.jpg"
             },
             "default": {
                 "details": [
-                    "http://i.mlcdn.com.br/210x210/206544800a.jpg"
+                    "http://i.mlcdn.com.br/210x210/206544800a.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800b.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800c.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800d.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800e.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800f.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800g.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/210x210/206544800.jpg"
             },
             "productDetail": {
                 "details": [
-                    "http://i.mlcdn.com.br/410x308/206544800a.jpg"
+                    "http://i.mlcdn.com.br/410x308/206544800a.jpg",
+                    "http://i.mlcdn.com.br/410x308/206544800b.jpg",
+                    "http://i.mlcdn.com.br/410x308/206544800c.jpg",
+                    "http://i.mlcdn.com.br/410x308/206544800d.jpg",
+                    "http://i.mlcdn.com.br/410x308/206544800e.jpg",
+                    "http://i.mlcdn.com.br/410x308/206544800f.jpg",
+                    "http://i.mlcdn.com.br/410x308/206544800g.jpg",
+                    "http://i.mlcdn.com.br/410x308/206544800h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/410x308/206544800.jpg"
             },
             "productLarge": {
                 "details": [
-                    "http://i.mlcdn.com.br/1500x1500/206544800a.jpg"
+                    "http://i.mlcdn.com.br/1500x1500/206544800a.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/206544800b.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/206544800c.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/206544800d.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/206544800e.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/206544800f.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/206544800g.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/206544800h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/1500x1500/206544800.jpg"
             },
             "productPPI": {
                 "details": [
-                    "http://i.mlcdn.com.br/210x210/206544800a.jpg"
+                    "http://i.mlcdn.com.br/210x210/206544800a.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800b.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800c.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800d.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800e.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800f.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800g.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/210x210/206544800.jpg"
             },
             "showcase": {
                 "details": [
-                    "http://i.mlcdn.com.br/210x210/206544800a.jpg"
+                    "http://i.mlcdn.com.br/210x210/206544800a.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800b.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800c.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800d.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800e.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800f.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800g.jpg",
+                    "http://i.mlcdn.com.br/210x210/206544800h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/210x210/206544800.jpg"
             },
             "showcaseLarge": {
                 "details": [
-                    "http://i.mlcdn.com.br/1500x1500/206544800a.jpg"
+                    "http://i.mlcdn.com.br/1500x1500/206544800a.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/206544800b.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/206544800c.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/206544800d.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/206544800e.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/206544800f.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/206544800g.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/206544800h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/1500x1500/206544800.jpg"
             }
@@ -69,6 +119,7 @@
     {
         "action": "add",
         "active": true,
+        "amountImageDetails": 1,
         "brand": "arno",
         "category": "EP",
         "changeDate": "2015-06-26T15:30:00.705391",
@@ -136,6 +187,7 @@
     {
         "action": "add",
         "active": true,
+        "amountImageDetails": 9,
         "brand": "arno",
         "category": "EP",
         "changeDate": "2015-06-26T15:30:00.705391",
@@ -146,43 +198,92 @@
         "images": {
             "category": {
                 "details": [
-                    "http://i.mlcdn.com.br/210x210/023517500a.jpg"
+                    "http://i.mlcdn.com.br/210x210/023517500a.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500b.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500c.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500d.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500e.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500f.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500g.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/210x210/023517500.jpg"
             },
             "default": {
                 "details": [
-                    "http://i.mlcdn.com.br/210x210/023517500a.jpg"
+                    "http://i.mlcdn.com.br/210x210/023517500a.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500b.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500c.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500d.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500e.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500f.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500g.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/210x210/023517500.jpg"
             },
             "productDetail": {
                 "details": [
-                    "http://i.mlcdn.com.br/410x308/023517500a.jpg"
+                    "http://i.mlcdn.com.br/410x308/023517500a.jpg",
+                    "http://i.mlcdn.com.br/410x308/023517500b.jpg",
+                    "http://i.mlcdn.com.br/410x308/023517500c.jpg",
+                    "http://i.mlcdn.com.br/410x308/023517500d.jpg",
+                    "http://i.mlcdn.com.br/410x308/023517500e.jpg",
+                    "http://i.mlcdn.com.br/410x308/023517500f.jpg",
+                    "http://i.mlcdn.com.br/410x308/023517500g.jpg",
+                    "http://i.mlcdn.com.br/410x308/023517500h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/410x308/023517500.jpg"
             },
             "productLarge": {
                 "details": [
-                    "http://i.mlcdn.com.br/1500x1500/023517500a.jpg"
+                    "http://i.mlcdn.com.br/1500x1500/023517500a.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/023517500b.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/023517500c.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/023517500d.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/023517500e.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/023517500f.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/023517500g.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/023517500h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/1500x1500/023517500.jpg"
             },
             "productPPI": {
                 "details": [
-                    "http://i.mlcdn.com.br/210x210/023517500a.jpg"
+                    "http://i.mlcdn.com.br/210x210/023517500a.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500b.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500c.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500d.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500e.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500f.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500g.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/210x210/023517500.jpg"
             },
             "showcase": {
                 "details": [
-                    "http://i.mlcdn.com.br/210x210/023517500a.jpg"
+                    "http://i.mlcdn.com.br/210x210/023517500a.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500b.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500c.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500d.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500e.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500f.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500g.jpg",
+                    "http://i.mlcdn.com.br/210x210/023517500h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/210x210/023517500.jpg"
             },
             "showcaseLarge": {
                 "details": [
-                    "http://i.mlcdn.com.br/1500x1500/023517500a.jpg"
+                    "http://i.mlcdn.com.br/1500x1500/023517500a.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/023517500b.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/023517500c.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/023517500d.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/023517500e.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/023517500f.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/023517500g.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/023517500h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/1500x1500/023517500.jpg"
             }
@@ -203,6 +304,7 @@
     {
         "action": "add",
         "active": false,
+        "amountImageDetails": 9,
         "brand": "suggar",
         "category": "ED",
         "changeDate": "2015-06-26T15:30:00.705391",
@@ -213,43 +315,92 @@
         "images": {
             "category": {
                 "details": [
-                    "http://i.mlcdn.com.br/210x210/084280500a.jpg"
+                    "http://i.mlcdn.com.br/210x210/084280500a.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500b.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500c.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500d.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500e.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500f.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500g.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/210x210/084280500.jpg"
             },
             "default": {
                 "details": [
-                    "http://i.mlcdn.com.br/210x210/084280500a.jpg"
+                    "http://i.mlcdn.com.br/210x210/084280500a.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500b.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500c.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500d.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500e.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500f.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500g.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/210x210/084280500.jpg"
             },
             "productDetail": {
                 "details": [
-                    "http://i.mlcdn.com.br/410x308/084280500a.jpg"
+                    "http://i.mlcdn.com.br/410x308/084280500a.jpg",
+                    "http://i.mlcdn.com.br/410x308/084280500b.jpg",
+                    "http://i.mlcdn.com.br/410x308/084280500c.jpg",
+                    "http://i.mlcdn.com.br/410x308/084280500d.jpg",
+                    "http://i.mlcdn.com.br/410x308/084280500e.jpg",
+                    "http://i.mlcdn.com.br/410x308/084280500f.jpg",
+                    "http://i.mlcdn.com.br/410x308/084280500g.jpg",
+                    "http://i.mlcdn.com.br/410x308/084280500h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/410x308/084280500.jpg"
             },
             "productLarge": {
                 "details": [
-                    "http://i.mlcdn.com.br/1500x1500/084280500a.jpg"
+                    "http://i.mlcdn.com.br/1500x1500/084280500a.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/084280500b.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/084280500c.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/084280500d.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/084280500e.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/084280500f.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/084280500g.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/084280500h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/1500x1500/084280500.jpg"
             },
             "productPPI": {
                 "details": [
-                    "http://i.mlcdn.com.br/210x210/084280500a.jpg"
+                    "http://i.mlcdn.com.br/210x210/084280500a.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500b.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500c.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500d.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500e.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500f.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500g.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/210x210/084280500.jpg"
             },
             "showcase": {
                 "details": [
-                    "http://i.mlcdn.com.br/210x210/084280500a.jpg"
+                    "http://i.mlcdn.com.br/210x210/084280500a.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500b.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500c.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500d.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500e.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500f.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500g.jpg",
+                    "http://i.mlcdn.com.br/210x210/084280500h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/210x210/084280500.jpg"
             },
             "showcaseLarge": {
                 "details": [
-                    "http://i.mlcdn.com.br/1500x1500/084280500a.jpg"
+                    "http://i.mlcdn.com.br/1500x1500/084280500a.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/084280500b.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/084280500c.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/084280500d.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/084280500e.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/084280500f.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/084280500g.jpg",
+                    "http://i.mlcdn.com.br/1500x1500/084280500h.jpg"
                 ],
                 "main": "http://i.mlcdn.com.br/1500x1500/084280500.jpg"
             }
