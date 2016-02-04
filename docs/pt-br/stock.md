@@ -37,7 +37,7 @@ Esse método retorna uma Promise. O resultado da Promise é o objeto no formato:
     "productId": "0000000",
     "productModel": "00",
     "productQuantity": 1,
-    "status": "3"
+    "status": 3
 }
 ```
 
@@ -50,7 +50,7 @@ Esse método retorna uma Promise. O resultado da Promise é o objeto no formato:
 	productQuantity: <Number> Quantidade,
 	partnerId: <String> IdResgateCampanha,
 	available: <Boolean> Liberado,
-	status: <String> idStatus,
+	status: <Number> idStatus,
 	message: <String> Mensagem,
 	needsMount: <Boolean> tem_montagem
 }
