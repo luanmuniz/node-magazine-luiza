@@ -29,7 +29,7 @@ Esse método retorna uma Promise. O resultado da Promise é um objeto no formato
     "cep": "04328030",
     "message": "Cep encontrado na base de dados.",
     "parnterId": "0000",
-    "status": "0"
+    "status": 0
 }
 ```
 
@@ -39,7 +39,7 @@ Esse método retorna uma Promise. O resultado da Promise é um objeto no formato
 {
 	cep: <String> CEP,
 	parnterId: <String> IdResgateCampanha,
-	status: <String> idStatus,
+	status: <Number> idStatus,
 	message: <String> Mensagem
 }
 ```
