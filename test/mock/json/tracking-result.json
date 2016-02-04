@@ -134,5 +134,5 @@
     "orderStatusId": "39",
     "partnerId": "123",
     "partnerOrderNumber": "123",
-    "status": "0"
+    "status": 0
 }
