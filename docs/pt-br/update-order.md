@@ -34,7 +34,7 @@ Esse método retorna uma Promise. O resultado da Promise é um objeto no formato
     "message": "Opera\u00e7\u00e3o realizada com sucesso",
     "orderNumber": "20136154",
     "partnerId": "0000",
-    "status": "0"
+    "status": 0
 }
 ```
 
@@ -45,7 +45,7 @@ Esse método retorna uma Promise. O resultado da Promise é um objeto no formato
 	cpf: <String> CPF,
 	partnerId: <String> IdResgateCampanha,
 	orderNumber: <String> Pedido,
-	status: <String> idStatus,
+	status: <Number> idStatus,
 	message: <String> Mensagem
 }
 ```
