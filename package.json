@@ -1,6 +1,6 @@
 {
   "name": "magazine-luiza",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "A nonofficial library for Magazine Luiza B2B Public API using Promises",
   "main": "index.js",
   "scripts": {
