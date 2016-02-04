@@ -21,6 +21,7 @@ Esse método retorna uma Promise. O resultado da Promise é um array de objetos,
     {
         "action": "add",
         "active": true,
+		"amountImageDetails": 1,
         "brand": "pontto lavabo",
         "category": "CJ",
         "changeDate": "2015-06-26T15:30:00.705391",
@@ -96,6 +97,7 @@ As imagens estão no objeto `images`, e estão separadas em outros dois objetos:
 {
 	action: <String> ACAO,
 	active: <Boolean> ATIVO,
+	amountImageDetails: <Number> QTDE_DETALHES,
 	category: <String> CATEGORIA,
 	ncm: <String> CLASSIFICACAO_FISCAL,
 	id: <String> CODIGO,
