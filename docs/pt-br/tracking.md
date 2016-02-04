@@ -154,7 +154,7 @@ Esse método retorna uma Promise. O resultado da Promise é um objeto, no format
     "orderStatusId": "39",
     "partnerId": "123",
     "partnerOrderNumber": "123",
-    "status": "0"
+    "status": 0
 }
 ```
 
@@ -179,7 +179,7 @@ Esse método retorna uma Promise. O resultado da Promise é um objeto, no format
 		state: <String> EnderecoEntrega.Estado,
 		cep: <String> EnderecoEntrega.CEP
 	},
-	status: <String> idStatus,
+	status: <Number> idStatus,
 	message: <String> Mensagem,
 	deliveryList: <Array> ListaEntrega.Entrega [
 		{

@@ -34,7 +34,7 @@ Esse método retorna uma Promise. O resultado da Promise é um objeto no formato
     "partnerId": "123",
     "productId": "2116449",
     "productModel": "00",
-    "status": "0",
+    "status": 0,
     "valueBrl": "3219.08",
     "valueCurrency": "3219.08"
 }
@@ -49,7 +49,7 @@ Esse método retorna uma Promise. O resultado da Promise é um objeto no formato
 	valueBrl: <String> Valor_Reais,
 	valueCurrency: <String> Valor_Moeda,
 	partnerId: <String> IdResgateCampanha,
-	status: <String> idStatus,
+	status: <Number> idStatus,
 	message: <String> Mensagem
 }
 ```

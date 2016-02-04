@@ -77,17 +77,17 @@ Esse método retorna uma Promise. O resultado da Promise é um objeto no formato
             "available": true,
             "id": "2033019",
             "model": "00",
-            "quantity": "1",
-            "stock": "1",
+            "quantity": 1,
+            "stock": 1,
             "valueBrl": "29.90",
             "valueCurrency": "29.90"
         }
     ],
-    "quantityItems": "1",
+    "quantityItems": 1,
     "sessionKey": "1188856",
     "shippingValueBrl": "5.15",
     "shippingValueCurrency": "5.15",
-    "status": "0",
+    "status": 0,
     "valueBrl": "35.05",
     "valueCurrency": "35.05"
 }
@@ -124,7 +124,7 @@ Esse método retorna uma Promise. O resultado da Promise é um objeto no formato
 	valueBrl: <String> Valor_Reais,
 	orderTotalValueBrl: <String> Valor_Tot_Produto,
 	orderTotalValueCurrency: <String> Valor_Tot_Produto_Moeda,
-	status: <String> idStatus,
+	status: <Number> idStatus,
 	products: <Array> ListaProdutos.Produto [
 		{
 			id: <String> Codigo,

@@ -56,21 +56,21 @@ Esse método retorna uma Promise. O resultado da Promise é um objeto no formato
             "available": false,
             "id": "2083101",
             "model": "00",
-            "quantity": "1",
-            "stock": "1"
+            "quantity": 1,
+            "stock": 1
         },
         {
             "available": false,
             "id": "0235175",
             "model": "00",
-            "quantity": "1",
-            "stock": "1"
+            "quantity": 1,
+            "stock": 1
         }
     ],
     "sessionKey": "1861737",
     "shippingValueBrl": "0",
     "shippingValueCurrency": "0",
-    "status": "1"
+    "status": 1
 }
 ```
 
@@ -86,7 +86,7 @@ Esse método retorna uma Promise. O resultado da Promise é um objeto no formato
 	shippingValueCurrency: <String> Valor_Frete_Moeda,
 	deliveryTime: <String> Prazo,
 	deliveryDate: <String> Data_Entrega,
-	status: <String> idStatus,
+	status: <Number> idStatus,
 	message: <String> Mensagem,
 	products: <Array> ListaProdutos.Produto [
 		{

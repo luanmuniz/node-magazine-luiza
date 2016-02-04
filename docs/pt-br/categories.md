@@ -20,9 +20,9 @@ Esse método retorna uma Promise. O resultado da Promise é um array de objetos,
 [
     {
         "categoryDescription": "Acess\u00f3rios para Beb\u00ea",
-        "categoryID": "AB",
+        "categoryId": "AB",
         "subcategoryDescription": "Bico de mamadeira",
-        "subcategoryID": "ABBM"
+        "subcategoryId": "ABBM"
     }
 ]
 ```
@@ -31,9 +31,9 @@ Esse método retorna uma Promise. O resultado da Promise é um array de objetos,
 
 ```js
 {
-	categoryID: <String> strLinha,
+	categoryId: <String> strLinha,
 	categoryDescription: <String> Descricaolinha,
-	subcategoryID: <String> strSetor,
+	subcategoryId: <String> strSetor,
 	subcategoryDescription: <String>category.strDescricao
 }
 ```
