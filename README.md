@@ -8,7 +8,7 @@
 
 ## Você trabalha no Magazine Luiza?
 
-Não de preocupe, este repositório não contem nenhuma informação sensível sendo apenas um empacotamento da API publica para clientes B2B para ser usado na plataforma NodeJS e não contém nenhuma chave de acesso, rotas privadas ou algo parecido. Caso você queira entrar em contato sobre este repositório você pode postar uma issue [clicando aqui](https://github.com/ZimpFidelidade/node-magazine-luiza/issues/new) ou através do email <suporte@zimp.me>
+Não se preocupe, este repositório não contém nenhuma informação sensível sendo apenas um empacotamento da API pública para clientes B2B para ser usado na plataforma NodeJS e não contém nenhuma chave de acesso, rotas privadas ou algo parecido. Caso você queira entrar em contato sobre este repositório você pode postar uma issue [clicando aqui](https://github.com/ZimpFidelidade/node-magazine-luiza/issues/new) ou através do email <suporte@zimp.me>
 
 ## Documentation
 
